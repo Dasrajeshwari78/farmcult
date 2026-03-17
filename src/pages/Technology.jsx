@@ -1,9 +1,9 @@
 import React from 'react';
 import WfcHeader from '../components/WhyFarmcult/WfcHeader';
-import SmartIntegration from '../components/Technology/SmartIntegration';
-import IotMonitoring from '../components/Technology/IotMonitoring';
+import SmartIntegration from '../components/technology/SmartIntegration';
+import IotMonitoring from '../components/technology/IotMonitoring';
 import ContactSection from '../components/ContactSection';
-import TechCards from '../components/Technology/TechCards';
+import TechCards from '../components/technology/TechCards';
 import Footer from '../components/Footer';
 
 
