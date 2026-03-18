@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,7 +12,7 @@ const Solutions = () => {
 
   useGSAP(() => {
     // Left text animations
-    gsap.fromTo('.solutions-title', 
+    gsap.fromTo('.solutions-title',
       {
         y: 30,
         autoAlpha: 0,
@@ -28,7 +29,7 @@ const Solutions = () => {
       }
     );
 
-    gsap.fromTo('.solutions-desc', 
+    gsap.fromTo('.solutions-desc',
       {
         y: 20,
         autoAlpha: 0,
@@ -47,7 +48,7 @@ const Solutions = () => {
     );
 
     // Cards staggered animation
-    gsap.fromTo('.solution-card', 
+    gsap.fromTo('.solution-card',
       {
         y: 50,
         autoAlpha: 0,
@@ -68,7 +69,7 @@ const Solutions = () => {
 
   return (
     <section className="solutions-section flex flex-col lg:flex-row bg-[#ECECEC] px-[16px] md:px-[5%] pt-[40px] pb-[16px] md:py-[80px] lg:py-[100px] min-h-[80vh] gap-[48px] md:gap-12 lg:gap-[5%] items-start w-full" ref={sectionRef}>
-      
+
       <div className="solutions-left flex-1 lg:flex-none lg:w-[25%] lg:max-w-[350px] mb-0 text-left w-full flex flex-col gap-[24px]">
         <h2 className="solutions-title font-inter text-[32px] md:text-[32px] font-medium leading-[48px] md:leading-[48px] text-black m-0">
           Our Solutions
@@ -77,7 +78,7 @@ const Solutions = () => {
           From hands-free investing to <br className="hidden lg:block" />hands-on farming, we offer <br className="hidden lg:block" />flexible ways to work with <br className="hidden lg:block" />Farmcult based on your goals.
         </p>
       </div>
-      
+
       <div className="solutions-right flex-1 w-full mt-0 lg:mt-0">
         <div className="solutions-cards-wrapper flex flex-col md:flex-row gap-[28px] md:gap-14 justify-between">
           
@@ -123,7 +124,7 @@ const Solutions = () => {
               <p className="solution-card-desc font-inter text-[15px] md:text-[15px] font-normal leading-[29px] text-[#F7F7F7] m-0 w-full h-auto">
                 Learn hydroponic farming through practical training, workshops, and guidance.
               </p>
-              <button className="solution-btn w-full h-[40px] md:h-auto flex justify-between items-center bg-red-500 text-text-primary border-none px-[24px] py-0 md:py-[12px] md:px-[18px] rounded-[40px] md:rounded-[30px] font-inter text-[15px] md:text-[0.9rem] font-medium md:font-semibold cursor-pointer transition-all duration-300 ease-in-out hover:bg-accent hover:text-white group m-0">
+              <button className="solution-btn w-full h-[40px] md:h-auto flex justify-between items-center bg-white text-text-primary border-none px-[24px] py-0 md:py-[12px] md:px-[18px] rounded-[40px] md:rounded-[30px] font-inter text-[15px] md:text-[0.9rem] font-medium md:font-semibold cursor-pointer transition-all duration-300 ease-in-out hover:bg-accent hover:text-white group m-0">
                 <span className='text-[12px]'>Learn More</span> <ArrowRight size={12} className="transition-transform group-hover:translate-x-1" />
               </button>
             </div>
