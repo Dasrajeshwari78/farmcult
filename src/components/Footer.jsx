@@ -39,7 +39,7 @@ const Footer = () => {
 
   return (
     <footer className="footer-section bg-[#F7F7F7] pt-20 flex flex-col min-h-[50vh]">
-      <div className="container mx-auto px-[5%] flex-1 mb-16">
+      <div className="container mx-auto px-[2%] flex-1 mb-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           
           {/* Logo and Tagline Section */}

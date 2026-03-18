@@ -70,9 +70,9 @@ const ParticipantsReviews = () => {
   return (
     <section className="reviews-section w-full px-[5%] py-16 lg:py-24 bg-[#F9F9F9]" ref={sectionRef}>
       {/* Header Area */}
-      <div className="reviews-heading-area flex flex-col md:flex-row md:items-end justify-between mb-12 lg:mb-16 gap-6">
-        <div className="max-w-[600px]">
-          <h2 className="text-[32px] font-normal text-text-primary leading-[1.1] mb-4">
+      <div className="reviews-heading-area flex flex-col md:flex-row md:items-end justify-between mb-12 lg:mb-16 gap-6 md:gap-0">
+        <div className="max-w-[700px]">
+          <h2 className="text-[32px] font-medium text-text-primary leading-[48px] mb-4">
             What Participants Say
           </h2>
           <p className="text-[15px] text-text-secondary ">
