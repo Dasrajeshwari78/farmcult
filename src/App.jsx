@@ -10,6 +10,7 @@ import WhyFarmcult from './pages/WhyFarmcult';
 import Technology from './pages/Technology';
 import PassiveIncome from './pages/PassiveIncome';
 import TurnkeySolution from './pages/TurnkeySolution';
+import EducationTraining from './pages/EducationTraining';
 import './index.css';
 import Blogs from './pages/Blogs';
 import CaseStudies from './pages/CaseStudies';
@@ -39,6 +40,7 @@ const AnimatedRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/passive-income" element={<PassiveIncome />} />
         <Route path="/turnkey-solution" element={<TurnkeySolution />} />
+        <Route path="/education-and-training" element={<EducationTraining />} />
         <Route path="/why-farmcult" element={<WhyFarmcult />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/blogs" element={<Blogs />} />
