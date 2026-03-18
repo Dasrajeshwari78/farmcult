@@ -72,10 +72,10 @@ const ParticipantsReviews = () => {
       {/* Header Area */}
       <div className="reviews-heading-area flex flex-col md:flex-row md:items-end justify-between mb-12 lg:mb-16 gap-6">
         <div className="max-w-[600px]">
-          <h2 className="text-[clamp(1.8rem,3vw,2.5rem)] font-normal text-text-primary leading-[1.1] mb-4">
+          <h2 className="text-[32px] font-normal text-text-primary leading-[1.1] mb-4">
             What Participants Say
           </h2>
-          <p className="text-base text-text-secondary opacity-80">
+          <p className="text-[15px] text-text-secondary ">
             Real feedback from students, growers, and professionals who've trained with Farmcult.
           </p>
         </div>
