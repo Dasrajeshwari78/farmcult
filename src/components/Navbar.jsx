@@ -71,7 +71,7 @@ const Navbar = () => {
     <>
       <nav
         className={`nav-container fixed top-0 w-full z-[110] transition-all duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] left-0 ${
-          isScrolled || mobileMenuOpen || location.pathname === '/passive-income' || location.pathname === '/turnkey-solution' ? 'bg-white/95 backdrop-blur-md shadow-sm py-4 px-4 md:px-[5%]' : 'bg-transparent py-6 md:py-8 px-4 md:px-[5%]'
+          isScrolled || mobileMenuOpen || location.pathname === '/passive-income' || location.pathname === '/turnkey-solution' || location.pathname === '/education-and-training' ? 'bg-white/95 backdrop-blur-md shadow-sm py-4 px-4 md:px-[5%]' : 'bg-transparent py-6 md:py-8 px-4 md:px-[5%]'
         }`}
         ref={navRef}
       >
