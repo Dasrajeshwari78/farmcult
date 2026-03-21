@@ -7,7 +7,7 @@ const TsCaseStudy2 = () => {
         {/* Background Image */}
         <div 
           className="absolute inset-0 w-full h-full bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('/farmCultinMediaImg1.jpg')" }}
+          style={{ backgroundImage: "url('/TsCS2.jpg')" }}
         ></div>
         <div className="absolute inset-0 bg-black/10 z-0"></div>
 

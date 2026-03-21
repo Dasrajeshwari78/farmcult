@@ -51,7 +51,7 @@ const EtExploreMore = () => {
               onClick={() => window.location.href = '/turnkey-solution'}
             >
               <img
-                src="/turnkeyIncentivesImg.jpg"
+                src="/GovernmentIncentives.jpg"
                 alt="Turnkey Solution"
                 className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
                 onError={(e) => { e.target.src = '/ourSolutionCard3.jpg'; }}

@@ -37,7 +37,7 @@ const TsWhatsIncluded = () => {
           <div className="w-full lg:w-1/2 mt-10 lg:mt-0">
             <div className="pb-[65%] lg:pb-[75%] relative w-full overflow-hidden rounded-[2rem] group">
               <img 
-                src="/caseStudyHomeimg.jpg" 
+                src="/blogs/WhyHydroponicsFarmsFail.jpg" 
                 alt="Turnkey Hydroponic Farm" 
                 className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out" 
                 onError={(e) => { e.target.src = '/ourSolutionCard3.jpg'; }}

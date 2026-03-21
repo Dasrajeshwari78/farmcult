@@ -10,9 +10,9 @@ const EtWebinars = () => {
           <div className="w-full lg:w-1/2">
             <div className="pb-[70%] lg:pb-[75%] relative w-full overflow-hidden rounded-[2rem] group">
               <img
-                src="/turnkeyIncentivesImg.jpg"
+                src="/Webinarsimage.jpg"
                 alt="Webinars"
-                className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
+                className="absolute inset-0 w-full h-full object-cover brightness-105 contrast-105 saturate-110 transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
                 onError={(e) => { e.target.src = '/contactFromimg.jpg'; }}
               />
               <div className="absolute inset-0 bg-black/5 rounded-[2rem]"></div>

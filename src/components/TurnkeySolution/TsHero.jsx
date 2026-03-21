@@ -5,7 +5,7 @@ const TsHero = () => {
     <section className="ts-hero-container relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden pt-20">
       <div
         className="ts-hero-bg absolute top-0 left-0 w-full h-full bg-cover bg-center z-0 origin-bottom"
-        style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('/ourSolutionCard3.jpg')" }}
+        style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('/passiveIncome/piHeader.jpg')" }}
       ></div>
 
       <div className="relative z-10 w-full max-w-[1600px] mx-auto px-[5%] mt-10 text-left">

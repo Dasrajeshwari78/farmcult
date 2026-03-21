@@ -7,7 +7,7 @@ const EtCaseStudy = () => {
         <div className="relative w-full rounded-[24px] lg:rounded-[32px] overflow-hidden min-h-[500px] lg:min-h-[640px] flex items-center justify-center lg:justify-end shadow-[0_4px_24px_rgba(0,0,0,0.06)] group">
           {/* Background Image */}
           <img
-            src="/caseStudyHomeimg.jpg"
+            src="/case-studies/case-study3.jpg"
             alt="Kids Explore the Magic of Growing Without Soil"
             className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
             onError={(e) => { e.target.src = '/ourSolutionCard2.jpg'; }}

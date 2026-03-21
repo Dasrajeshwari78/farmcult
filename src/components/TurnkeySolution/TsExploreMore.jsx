@@ -48,7 +48,7 @@ const TsExploreMore = () => {
             {/* Card 2: Education & Training */}
             <div className="flex-1 relative rounded-3xl overflow-hidden group aspect-[4/5] sm:aspect-auto sm:min-h-[400px] cursor-pointer">
               <img
-                src="/ourSolutionCard2.jpg"
+                src="/ourSolutionCard3.jpg"
                 alt="Education & Training"
                 className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
                 onError={(e) => { e.target.src = '/contactFromimg.jpg'; }}
