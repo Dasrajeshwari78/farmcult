@@ -14,6 +14,7 @@ import TsIncentives from '../components/TurnkeySolution/TsIncentives';
 import TsCaseStudy2 from '../components/TurnkeySolution/TsCaseStudy2';
 import TsExploreMore from '../components/TurnkeySolution/TsExploreMore';
 import PiIncentives from '../components/PassiveIncome/PiIncentives';
+import PiStatsGrid from '../components/PassiveIncome/PiStatsGrid';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -109,14 +110,7 @@ const TurnkeySolution = () => {
       }
     );
 
-    // Case Study 2 Animation
-    gsap.fromTo('.ts-casestudy2-card',
-      { y: 50, autoAlpha: 0, scale: 0.95 },
-      {
-        scrollTrigger: { trigger: '.ts-casestudy2-container', start: 'top 75%' },
-        y: 0, autoAlpha: 1, scale: 1, duration: 1, ease: 'power3.out'
-      }
-    );
+
   }, { scope: containerRef });
 
   return (
@@ -132,11 +126,16 @@ const TurnkeySolution = () => {
       <TsHero />
       <TsWhatsIncluded />
       {/* <TsHowItWorks /> */}
-      <PiHowItWorks/>
+      <PiHowItWorks />
       {/* <TsCaseStudy /> */}
-      <CaseStudies />
+      <CaseStudies bgColor="bg-[#F7F7F7]" />
       {/* <TsIncentives /> */}
-      <PiIncentives/>
+      <PiIncentives />
+      
+      <section className="px-4 md:px-[68px] mx-auto py-10 lg:py-16">
+        <PiStatsGrid />
+      </section>
+
       <TsCaseStudy2 />
       <TsExploreMore />
       <ContactSection />
