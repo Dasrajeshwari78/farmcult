@@ -7,11 +7,13 @@ import Footer from '../components/Footer';
 import ContactSection from '../components/ContactSection';
 import TsHero from '../components/TurnkeySolution/TsHero';
 import TsWhatsIncluded from '../components/TurnkeySolution/TsWhatsIncluded';
-import TsHowItWorks from '../components/TurnkeySolution/TsHowItWorks';
+// import TsHowItWorks from '../components/TurnkeySolution/TsHowItWorks';
+import PiHowItWorks from '../components/PassiveIncome/PiHowItWorks'
 import CaseStudies from '../components/CaseStudy';
 import TsIncentives from '../components/TurnkeySolution/TsIncentives';
 import TsCaseStudy2 from '../components/TurnkeySolution/TsCaseStudy2';
 import TsExploreMore from '../components/TurnkeySolution/TsExploreMore';
+import PiIncentives from '../components/PassiveIncome/PiIncentives';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -129,10 +131,12 @@ const TurnkeySolution = () => {
     >
       <TsHero />
       <TsWhatsIncluded />
-      <TsHowItWorks />
+      {/* <TsHowItWorks /> */}
+      <PiHowItWorks/>
       {/* <TsCaseStudy /> */}
       <CaseStudies />
-      <TsIncentives />
+      {/* <TsIncentives /> */}
+      <PiIncentives/>
       <TsCaseStudy2 />
       <TsExploreMore />
       <ContactSection />
