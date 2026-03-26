@@ -33,14 +33,16 @@ function Content2() {
         He enrolled in Farmcult's onsite hydroponics training programme at our
         facility. What he experienced there went beyond textbook theory. Our
         curriculum dives deep into:
+        <ul className="list-disc pl-6">
+          <li>
+            Real world hydroponic systems and their commercial applications
+          </li>
+          <li>Crop nutrition, pest management, and yield optimization</li>
+          <li>Financial modeling and farm economics</li>
+          <li>Common pitfalls and how to avoid them</li>
+          <li>Hands on experience with live farm operations</li>
+        </ul>
       </p>
-      <ul className="list-disc pl-6">
-        <li>Real world hydroponic systems and their commercial applications</li>
-        <li>Crop nutrition, pest management, and yield optimization</li>
-        <li>Financial modeling and farm economics</li>
-        <li>Common pitfalls and how to avoid them</li>
-        <li>Hands on experience with live farm operations</li>
-      </ul>
       <p>
         The result was not just knowledge. It was conviction. By the end of the
         training, he knew this was not just viable. It was his next big move.
@@ -76,13 +78,13 @@ function Content2() {
         <br />
         From groundwork to the final installation of hydroponic systems, every
         phase was executed with meticulous attention to detail:
+        <ul className="list-disc pl-6">
+          <li>Robust polyhouse infrastructure built to last</li>
+          <li>Hydroponic grow systems configured for scalability</li>
+          <li>Automated fertigation and climate management technology</li>
+          <li>Water treatment and recycling mechanisms for sustainability</li>
+        </ul>
       </p>
-      <ul className="list-disc pl-6">
-        <li>Robust polyhouse infrastructure built to last</li>
-        <li>Hydroponic grow systems configured for scalability</li>
-        <li>Automated fertigation and climate management technology</li>
-        <li>Water treatment and recycling mechanisms for sustainability</li>
-      </ul>
       <p>
         <u>Step 4: People and Processes</u>
         <br />
@@ -105,22 +107,22 @@ function Content2() {
       <p>We provide:</p>
       <p>
         <u>Continuous Agronomic Guidance</u>
+        <ul className="list-disc pl-6">
+          <li>Weekly farm assessments and crop health evaluations</li>
+          <li>Season wise crop planning and rotation strategies</li>
+          <li>Pest and disease management protocols</li>
+          <li>Nutrient management and harvest planning</li>
+        </ul>
       </p>
-      <ul className="list-disc pl-6">
-        <li>Weekly farm assessments and crop health evaluations</li>
-        <li>Season wise crop planning and rotation strategies</li>
-        <li>Pest and disease management protocols</li>
-        <li>Nutrient management and harvest planning</li>
-      </ul>
       <p>
         <u>Operational Excellence</u>
+        <ul className="list-disc pl-6">
+          <li>Regular training sessions for farm staff</li>
+          <li>Documentation of farm activities and learnings</li>
+          <li>Performance benchmarking and improvement areas</li>
+          <li>Strategic advice on scaling and diversification</li>
+        </ul>
       </p>
-      <ul className="list-disc pl-6">
-        <li>Regular training sessions for farm staff</li>
-        <li>Documentation of farm activities and learnings</li>
-        <li>Performance benchmarking and improvement areas</li>
-        <li>Strategic advice on scaling and diversification</li>
-      </ul>
       <h3 className="text-lg font-bold">Where the Farm Stands Today</h3>
       <p>
         The farm is up and running with crops showing strong growth patterns.

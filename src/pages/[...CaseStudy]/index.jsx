@@ -16,6 +16,10 @@ const componentMap = {
   3: Content3,
 };
 
+const handleNavigate = () => {
+  window.location.href = "/case-studies";
+};
+
 function DynamicRenderer({ type }) {
   const Component = componentMap[type];
 
@@ -122,7 +126,8 @@ const CaseStudy = () => {
               </p>
             </div>
 
-            <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit">
+            <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit"
+            onClick={handleNavigate}>
               View All Case Studies
             </button>
           </div>

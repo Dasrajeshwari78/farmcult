@@ -18,6 +18,10 @@ const componentMap = {
   4: Content4,
 };
 
+const handleNavigate = () => {
+  window.location.href = "/blogs";
+};
+
 function DynamicRenderer({ type }) {
   const Component = componentMap[type];
 
@@ -87,7 +91,8 @@ const Blog = () => {
               </p>
             </div>
 
-            <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit">
+            <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit"
+            onClick = {handleNavigate}>
               View All Blogs
             </button>
           </div>
