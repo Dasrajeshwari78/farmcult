@@ -10,7 +10,6 @@ import WfcFeatures from '../components/WhyFarmcult/WfcFeatures';
 import WfcFoundation from '../components/WhyFarmcult/WfcFoundation';
 import WfcBanner from '../components/WhyFarmcult/WfcBanner';
 import WfcTeam from '../components/WhyFarmcult/WfcTeam';
-import ParticipantsReviews from '../components/ParticipantsReviews';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 
@@ -94,7 +93,6 @@ const WhyFarmcult = () => {
       <WfcFoundation />
       <WfcBanner />
       <WfcTeam />
-      <ParticipantsReviews />
       <ContactSection />
       <Footer />
     </motion.div>
