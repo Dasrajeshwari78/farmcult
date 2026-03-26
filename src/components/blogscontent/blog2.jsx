@@ -1,6 +1,6 @@
 function Content2() {
   return (
-    <div>
+    <div className="space-y-6">
       <p>
         Hydroponics delivers faster crop cycles, consistent output, and over 3x
         higher annual yield compared to traditional soil farming. The difference

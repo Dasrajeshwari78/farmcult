@@ -1,6 +1,6 @@
 function Content3() {
   return (
-    <div>
+    <div className="space-y-6">
       <p>
         Most hydroponic farms do not fail because of technology. They fail
         because of decisions made before the first seed is planted.

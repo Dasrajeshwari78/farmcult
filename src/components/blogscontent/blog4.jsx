@@ -1,6 +1,6 @@
 function Content4() {
   return (
-    <div>
+    <div className="space-y-6">
       <p>
         Break-even is not a buzzword. It is the moment your hydroponic farm
         stops recovering money and starts making money.

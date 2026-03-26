@@ -1,6 +1,6 @@
 function Content2() {
   return (
-    <div>
+    <div className="space-y-6">
       <h3 className="text-lg font-bold">The Story Behind the Farm</h3>
       <p>
         Not every entrepreneur starts their journey in a boardroom. Some start
