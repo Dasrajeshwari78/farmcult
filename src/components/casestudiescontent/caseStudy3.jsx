@@ -1,6 +1,6 @@
 function Content3() {
   return (
-    <div>
+    <div className="space-y-6">
       <p>
         On 10th August, FarmCult conducted a hydroponics workshop at Elante
         Mall, Chandigarh. The session brought together children to learn how to

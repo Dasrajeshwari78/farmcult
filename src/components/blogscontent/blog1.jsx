@@ -1,6 +1,6 @@
 function Content1() {
   return (
-    <div>
+    <div className="space-y-6">
       <p>
         Not every crop delivers the same results in hydroponics. In commercial
         hydroponics, crop selection is one of the most important decisions you

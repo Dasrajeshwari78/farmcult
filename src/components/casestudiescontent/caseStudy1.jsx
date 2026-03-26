@@ -1,6 +1,6 @@
 function Content1() {
   return (
-    <div>
+    <div className="space-y-6">
       <h3 className="text-lg font-bold">The Story Behind the Farm</h3>
             <p>
               Our client, a successful young hotelier and restaurant owner based
@@ -32,7 +32,7 @@ function Content1() {
               agri-businesses. Our team took a comprehensive, end-to-end
               approach to ensure the project's long-term success.
             </p>
-            <p>
+            <p className="space-y-0">
               <u>Phase 1: Consultation & Planning</u>
               <br />
               We began with detailed consultations to understand the client's
@@ -40,7 +40,7 @@ function Content1() {
               guidance and practical approach built immediate trust, leading to
               our engagement as the turnkey development partner.
             </p>
-            <p>
+            <p className="space-y-0">
               <u>Phase 2: Technical Assessment</u>
             </p>
             <ul className="list-disc pl-6">
@@ -57,7 +57,7 @@ function Content1() {
                 with scope for crop diversification
               </li>
             </ul>
-            <p>
+            <p className="space-y-0">
               <u>Phase 3: Construction & Technology Integration</u>
             </p>
             <ul className="list-disc pl-6">
@@ -72,7 +72,7 @@ function Content1() {
               </li>
               <li>Quality checks at every construction milestone</li>
             </ul>
-            <p>
+            <p className="space-y-0">
               <u>Phase 4: Operational Readiness</u>
             </p>
             <ul className="list-disc pl-6">
