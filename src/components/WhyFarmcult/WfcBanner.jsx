@@ -1,8 +1,8 @@
 import React from 'react';
 
 const WfcBanner = ({ 
-  title = "Grow smarter. Use less. Build for tomorrow.", 
-  subtitle = "Technology-backed. Resource-efficient. Long-term focused.", 
+  title = "", 
+  subtitle = "", 
   image = "/whyFarmCult/GrowSmaterUselessBuildForTomorrow.jpg",
   tag = "",
   variant = "dark"
@@ -12,18 +12,17 @@ const WfcBanner = ({
   return (
     <section 
       className={`wfc-about-banner relative flex items-center justify-center lg:justify-start overflow-hidden ${
-        isDark ? 'min-h-[300px]  py-16 lg:py-0' : 'pt-16 md:pt-24 pb-10 md:pb-14'
+        isDark ? 'min-h-[400px] md:min-h-[500px] lg:min-h-[600px] py-16 lg:py-0' : 'pt-16 md:pt-24 pb-10 md:pb-14'
       }`}
     >
-      {/* Background — image+overlay for dark, plain white for light */}
+      {/* Background — image (overlay removed) */}
       {isDark ? (
         <div className="absolute inset-0 z-0">
           <img 
             src={image} 
             alt={title} 
-            className="w-full h-full object-cover object-[center_80%]"
+            className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-black/50 md:bg-black/50" />
         </div>
       ) : (
         <div className="absolute inset-0 bg-white z-0" />
