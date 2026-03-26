@@ -3,7 +3,7 @@ const caseStudies = [
     id: 1,
     title: "2 Acres.\n24,000 Plants.",
     description:
-      "Transforming traditional farmland into a high-tech commercial hydroponic farm in Garh Mukhteshwar.",
+      "Transforming Traditional Farmland into a High-Tech Commercial Hydroponic Farm in Garh Mukhteshwar.",
     date: "Jan 2025",
     image: "/case-studies/CS1.jpg",
     location: "Garh Mukhteshwar, Uttar Pradesh",

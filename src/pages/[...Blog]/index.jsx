@@ -3,6 +3,8 @@ import ContactSection from "../../components/ContactSection";
 import Footer from "../../components/Footer";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import instagram from "../../assets/instagram.svg";
+import linkedin from "../../assets/linkedin.svg";
 import blogs from "../../assets/docs/blogs.js";
 import Content1 from "../../components/blogscontent/blog1.jsx";
 import Content2 from "../../components/blogscontent/blog2.jsx";
@@ -31,8 +33,8 @@ const Blog = () => {
     return <div>Blog not found</div>;
   }
 
-  const selectedBlogs = blogs.filter(b => blog.selectedIds.includes(b.id));
-  
+  const selectedBlogs = blogs.filter((b) => blog.selectedIds.includes(b.id));
+
   return (
     <div className="blog-page">
       <WfcHeader tag="BLOG" title={blog.title} subtitle={blog.description} />
@@ -59,8 +61,12 @@ const Blog = () => {
             </p>
 
             <div className="flex gap-4 text-[#8DC83A]">
-              <span>Instagram</span>
-              <span>LinkedIn</span>
+              <span>
+                <img src={instagram} alt="Instagram" className="w-6 h-6" />
+              </span>
+              <span>
+                <img src={linkedin} alt="Linkedin" className="w-6 h-6" />
+              </span>
             </div>
           </div>
         </div>
@@ -105,9 +111,7 @@ const Blog = () => {
 
                   <h3 className="font-bold text-lg">{blog.title}</h3>
 
-                  <p className="text-sm leading-7">
-                    {blog.description}
-                  </p>
+                  <p className="text-sm leading-7">{blog.description}</p>
 
                   <span className="text-[#8DC83A] font-bold">{blog.date}</span>
                 </div>

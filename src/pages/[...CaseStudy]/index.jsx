@@ -3,6 +3,8 @@ import ContactSection from "../../components/ContactSection.jsx";
 import Footer from "../../components/Footer.jsx";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import instagram from "../../assets/instagram.svg";
+import linkedin from "../../assets/linkedin.svg";
 import caseStudies from "../../assets/docs/case_studies.js";
 import Content1 from "../../components/casestudiescontent/caseStudy1.jsx";
 import Content2 from "../../components/casestudiescontent/caseStudy2.jsx";
@@ -97,8 +99,8 @@ const CaseStudy = () => {
             </p>
 
             <div className="flex gap-4 text-[#8DC83A]">
-              <span>Instagram</span>
-              <span>LinkedIn</span>
+              <span><img src={instagram} alt="Instagram" className="w-6 h-6" /></span>
+              <span><img src={linkedin} alt="Linkedin" className="w-6 h-6" /></span>
             </div>
           </div>
         </div>
