@@ -19,7 +19,7 @@ const blogs = [
   },
   {
     id: 3,
-    title: "Hydroponic Break Even Explained",
+    title: "Why Hydrophonic Farms Fail",
     description:
       "The real reason most commercial hydroponics projects struggle",
     date: "Jan 2025",
