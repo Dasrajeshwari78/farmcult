@@ -64,17 +64,17 @@ const PiMainContent = () => {
               </div>
 
               {/* GREEN HIGHLIGHT LINE */}
-              <div className="mt-6 bg-[#E6F4D7] text-[14px] text-[#344054] px-4 py-2 rounded-md inline-block">
+              <div className="mt-6 bg-[#E6F4D7] text-[14px] text-[#344054] px-4 py-2 rounded-md w-full">
                 Minimum farm size: 5 acres and above
               </div>
 
             </div>
 
             {/* RIGHT IMAGE */}
-            <div className="w-full lg:w-[555px] lg:h-[468px] mt-10 lg:mt-0">
+            <div className="w-full lg:w-[455px] lg:h-[507px] mt-10 lg:mt-0">
               <div className="pb-[60%] lg:pb-[70%] relative w-full h-full overflow-hidden rounded-[16px] group">
                 <img
-                  src="/passiveIncome/piSolutions.jpg"
+                  src="/passiveIncome/piWhatsincluded.jpg"
                   alt="Passive Income Farming"
                   className="absolute inset-0 w-full h-full object-cover rounded-3xl"
                 />
