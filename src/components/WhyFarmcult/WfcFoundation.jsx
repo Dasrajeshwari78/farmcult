@@ -10,7 +10,7 @@ const WfcFoundation = () => {
             <div className="wfc-founder-tag inline-flex justify-start text-left py-[2px] px-[12px] bg-accent/25 text-text-primary rounded-full font-normal text-[15px] md:text-[15px] md:leading-[29px]">
               <span className="text-left">Pritpal Singh, Founder &amp; CEO</span>
             </div>
-            <a href="https://www.linkedin.com/in/pritpalsingh2/" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110 flex items-center justify-center p-1" aria-label="LinkedIn Profile">
+            <a href="https://www.linkedin.com/in/pritpalsingh2610" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110 flex items-center justify-center p-1" aria-label="LinkedIn Profile">
               <img src="/icons/linkedin.png" alt="LinkedIn" className="w-[20px] h-[20px] object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.1)]" />
             </a>
           </div>
@@ -28,8 +28,8 @@ const WfcFoundation = () => {
           </p>
         </div>
         <div className="wfc-foundation-image-col w-full h-[300px] sm:h-[400px] lg:h-[446px] mt-4 lg:mt-0">
-          <img 
-            src="/whyFarmCult/founderimg1.jpg" 
+          <img
+            src="/whyFarmCult/founderimg1.jpg"
             alt="Pritpal Singh, Founder & CEO"
             className="w-full h-full object-cover rounded-2xl md:rounded-[32px] shadow-sm"
           />
