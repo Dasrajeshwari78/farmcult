@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigationType } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -20,14 +20,24 @@ import TopBanner from './components/TopBanner';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// ScrollToTop component to reset scroll position on route change
+// ScrollToTop component to manage scroll position on route change
 const ScrollToTop = () => {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-    ScrollTrigger.refresh();
-  }, [pathname]);
+    // Only scroll to top if not navigating via back/forward browser buttons
+    if (navigationType !== 'POP') {
+      window.scrollTo(0, 0);
+      
+      // Instantly reset Lenis scroll position if it exists
+      if (window.lenis) {
+        window.lenis.scrollTo(0, { immediate: true });
+      }
+
+      ScrollTrigger.refresh();
+    }
+  }, [pathname, navigationType]);
 
   return null;
 };
