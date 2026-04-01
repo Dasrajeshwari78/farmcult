@@ -43,7 +43,7 @@ const TsWhatsIncluded = () => {
             </div>
 
             {/* ✅ GREEN STRIP (SEPARATE — LIKE FIGMA) */}
-            <div className="mt-6 bg-[#E6F4D7] text-[14px] text-[#344054] px-4 py-2 rounded-md inline-block">
+            <div className="mt-6 bg-[#E6F4D7] text-[14px] text-[#344054] px-4 py-2 rounded-md w-full">
               Minimum farm size: 2.5 acres and above
             </div>
 
