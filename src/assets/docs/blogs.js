@@ -1,9 +1,9 @@
 const blogs = [
   {
     id: 1,
-    title: "Hydroponic Crop Selection for Stable ROI",
+    title: "Hydroponics Crop Selection for Stable ROI",
     description:
-      "How the right hydroponic crop selection improves demand predictability, pricing stability, and commercial success",
+      "How the right hydroponics crop selection improves demand predictability, pricing stability, and commercial success",
     date: "Jan 2025",
     image: "/blogs/IdeaDrivingModernFarming.jpg",
     selectedIds: [2, 3],
@@ -12,7 +12,7 @@ const blogs = [
     id: 2,
     title: "Soil vs Hydroponics: Yield per Square Foot",
     description:
-      "Why hydroponic farming systems deliver faster cycles, stable output, and higher annual yield",
+      "Why hydroponics farming systems deliver faster cycles, stable output, and higher annual yield",
     date: "Jan 2025",
     image: "/blogs/blog2.jpg",
     selectedIds: [3, 4],
@@ -28,7 +28,7 @@ const blogs = [
   },
   {
     id: 4,
-    title: "Hydroponic Break Even Explained",
+    title: "Hydroponics Break Even Explained",
     description:
       "How crop choice, pricing and planning decide your ROI timeline.",
     date: "Jan 2025",
