@@ -41,10 +41,10 @@ const RiseOfFarming = () => {
           {/* The unifying vertical timeline bar for mobile - strictly 336px to not stick out past bottom dot */}
           <div className="absolute left-[3px] top-[16px] w-[2px] h-[336px] bg-[#8DC83A] block md:hidden z-0"></div>
 
-          <div className="rise-stats-grid flex flex-col md:grid md:grid-cols-4 gap-[20px] md:gap-y-0 pt-0 md:pt-12 md: border-[#DEDEDE]">
+          <div className="rise-stats-grid flex flex-col md:grid md:grid-cols-4 gap-[20px] md:gap-y-0 pt-0">
 
             {/* Card 1 */}
-            <div className="stat-card relative flex flex-col gap-[12px] md:gap-[53px] pl-[20px] sm:px-6 lg:px-8 border-l-2 sm:border-r border-[#DEDEDE] w-full md:h-auto bg-transparent z-10 md:border-r-2 overflow-hidden">
+            <div className="stat-card relative flex flex-col gap-[12px] md:gap-[53px] pl-[20px] sm:px-6 lg:px-8 md:border-l-2 border-[#DEDEDE] w-full md:h-auto bg-transparent z-10 md:border-r-2 overflow-hidden">
               <div className="absolute left-0 top-[12px] w-[8px] h-[8px] bg-[#8DC83A] rounded-full block md:hidden"></div>
               <h3 className="stat-value font-inter text-[22px] min-[400px]:text-[24px] sm:text-[28px] md:text-[clamp(18px,2vw,28px)] xl:text-[32px] font-medium leading-[1.2] md:leading-normal text-black w-full md:w-auto md:h-auto m-0 whitespace-nowrap">
                 Over 30%
