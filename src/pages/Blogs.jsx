@@ -99,7 +99,7 @@ const Blogs = () => {
                 </p>
 
                 {/* Date */}
-                <span className="text-[16px] font-bold text-[#8DC83A]">
+                <span className="text-[16px] font-bold text-[#8DC83A] mt-auto">
                   {blog.date}
                 </span>
               </div>

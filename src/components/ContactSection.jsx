@@ -84,9 +84,9 @@ const ContactSection = () => {
         {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-100"
-        style={{ backgroundImage: 'url("/contactFromimg.jpg")' }}
+        style={{ backgroundImage: 'url("/contactFromimg2.jpg.jpeg")' }}
       />
-      <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent lg:to-black/10" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent lg:to-black/10" />
 
       <div className="container relative z-10 mx-auto max-w-[1400px]">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-stretch">

@@ -39,31 +39,35 @@ const EtParticipantsSay = () => {
 
   return (
     <section className="et-participants-section w-full px-[5%] py-16 lg:py-24 bg-white" ref={sectionRef}>
-      <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_0.85fr] gap-12 lg:gap-20 items-stretch">
+      <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_0.35fr] gap-12 lg:gap-12 items-stretch">
 
         {/* Left Column: Text + Landscape Image */}
         <div className="flex flex-col w-full h-full">
           <div className="mb-10 lg:mb-16">
-            <h2 className="et-participants-text text-[32px] md:text-[40px] font-medium text-text-primary mb-6 leading-[1.2]">
+            <h2 className="et-participants-text text-[32px] md:text-[40px] font-medium text-text-primary mb-16 leading-[1.2]">
               What Participants Say
             </h2>
             <p className="et-participants-text text-[15px] md:text-[16px] text-text-secondary leading-[1.8] max-w-[600px]">
-              Farmcult experiences are shaped by the people who take part in them. Across both on-site and online formats, we ensure every session offers the same depth, clarity, and hands-on exposure. Participants don't just learn concepts- they engage with real practices, explore ideas freely, and build a deeper, more lasting connection with sustainable farming.
+              Farmcult experiences are shaped by the people who take part in them. Across both on-site and online formats, we ensure every session offers the same depth, clarity, and hands-on exposure.
             </p>
           </div>
 
-          <div className="w-full mt-auto et-participants-img-left">
-            {/* TODO: Replace src with the actual landscape image of the three people from Figma */}
+          <div className="w-full mt-auto et-participants-img-left grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
             <img
               src="/Training1.jpg"
               alt="Participants on-site"
-              className="w-full h-[250px] sm:h-[350px] md:h-[400px] object-cover rounded-[16px] md:rounded-[24px]"
+              className="w-full h-[200px] sm:h-[250px] md:h-[280px] object-cover rounded-[16px] md:rounded-[24px]"
+            />
+            <img
+              src="/solutions/newSectionImgEducationalAndTraining.jpeg"
+              alt="Participants training session"
+              className="w-full h-[200px] sm:h-[250px] md:h-[280px] object-cover rounded-[16px] md:rounded-[24px]"
             />
           </div>
         </div>
 
         {/* Right Column: Portrait Image/Video */}
-        <div className="w-full h-[400px] md:h-[600px] lg:h-auto lg:max-h-[700px] et-participants-img-right relative group">
+        <div className="w-full h-[400px] md:h-[600px] lg:h-auto lg:max-h-[550px] et-participants-img-right relative group">
           <video
             src="/Trainingvideo.mp4"
             autoPlay
