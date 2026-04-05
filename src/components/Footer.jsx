@@ -30,9 +30,9 @@ const Footer = () => {
     {
       title: 'Social Media',
       links: [
-        { label: 'Instagram', path: 'https://instagram.com' },
-        { label: 'Linked-in', path: 'https://linkedin.com' },
-        { label: 'Facebook', path: 'https://facebook.com' },
+        { label: 'Instagram', path: 'https://www.instagram.com/farmcult_?igsh=MWwxNDhteXM4N3YyaA==' },
+        { label: 'Linked-in', path: 'https://www.linkedin.com/company/farmcult/' },
+        { label: 'Facebook', path: 'https://www.facebook.com/share/18Fqqt1Gua/?mibextid=LQQJ4d' },
       ]
     }
   ];
