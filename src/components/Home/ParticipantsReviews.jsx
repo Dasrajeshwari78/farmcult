@@ -77,7 +77,15 @@ const ParticipantsReviews = () => {
             Real feedback from students, growers, and professionals who've trained with Farmcult.
           </p>
         </div>
-        <button className="bg-[#343434] text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-black transition-colors shrink-0 max-w-max">
+        <button
+          onClick={() =>
+            window.open(
+              "https://www.google.com/search?sca_esv=41b0018ec147afb9&sxsrf=ANbL-n75FxexeXCztV-bthFSsZTdhLeTnQ:1775374564056&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOe_3IW_o05uxZJQyuYTh3TNlJqLOv3Il2tNtfIJ-SsYUCFtOk1f1FURIAEUlql5A7jRCF_tV_SQadvJvKXkFdrxdaEO_&q=Farmcult+Reviews&sa=X&ved=2ahUKEwjGiu_RmdaTAxX2WHADHYI1DwsQ0bkNegQIIBAH&biw=1512&bih=823&dpr=2",
+              "_blank"
+            )
+          }
+          className="bg-[#343434] text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-black transition-colors shrink-0 max-w-max"
+        >
           Read More Reviews
         </button>
       </div>
