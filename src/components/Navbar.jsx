@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Logo Column */}
           <div className="nav-col nav-logo-col flex-1 flex justify-start">
             <Link to="/" onClick={() => setMobileMenuOpen(false)}>
-              <img src="/logo.svg" alt="Farmcult Logo" className="nav-logo h-8 md:h-12" />
+              <img src="/Farmcult_Logo.png" alt="Farmcult Logo" className="nav-logo h-8 md:h-12" />
             </Link>
           </div>
 
