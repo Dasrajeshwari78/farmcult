@@ -104,8 +104,23 @@ const CaseStudy = () => {
             </p>
 
             <div className="flex gap-4 text-[#8DC83A]">
-              <span><img src={instagram} alt="Instagram" className="w-6 h-6" /></span>
-              <span><img src={linkedin} alt="Linkedin" className="w-6 h-6" /></span>
+              <a
+                href="https://www.instagram.com/farmcult_?igsh=MWwxNDhteXM4N3YyaA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img src={instagram} alt="Instagram" className="w-6 h-6" />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/company/farmcult/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <img src={linkedin} alt="Linkedin" className="w-6 h-6" />
+              </a>
             </div>
           </div>
         </div>
@@ -128,7 +143,7 @@ const CaseStudy = () => {
             </div>
 
             <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit"
-            onClick={handleNavigate}>
+              onClick={handleNavigate}>
               View All Case Studies
             </button>
           </div>

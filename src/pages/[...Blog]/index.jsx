@@ -66,10 +66,21 @@ const Blog = () => {
             </p>
 
             <div className="flex gap-4 text-[#8DC83A]">
-              <a href="#" className="hover:opacity-80 transition-opacity">
+              <a
+                href="https://www.instagram.com/farmcult_?igsh=MWwxNDhteXM4N3YyaA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
                 <img src={instagram} alt="Instagram" className="w-6 h-6" />
               </a>
-              <a href="#" className="hover:opacity-80 transition-opacity">
+
+              <a
+                href="https://www.linkedin.com/company/farmcult/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
                 <img src={linkedin} alt="Linkedin" className="w-6 h-6" />
               </a>
             </div>
@@ -93,7 +104,7 @@ const Blog = () => {
             </div>
 
             <button className="bg-[#343434] text-white px-6 py-3 rounded-full w-fit"
-            onClick = {handleNavigate}>
+              onClick={handleNavigate}>
               View All Blogs
             </button>
           </div>
