@@ -10,11 +10,11 @@ import Footer from '../components/Footer';
 const Technology = () => {
   return (
     <div className="technology-page">
-      <WfcHeader 
+      <WfcHeader
         tag="TECHNOLOGY"
         title="Technology That Powers Every Farm"
         subtitle="Smart systems working quietly behind the scenes. Monitoring, optimising, and improving performance every day."
-        image="/techBanner.jpg"
+        image="/new2.jpeg"
         variant="dark"
       />
       <SmartIntegration />
