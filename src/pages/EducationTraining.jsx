@@ -13,7 +13,7 @@ import EtTrainingDifferent from '../components/EducationTraining/EtTrainingDiffe
 import EtParticipantsSay from '../components/EducationTraining/EtParticipantsSay';
 // import EtReviews from '../components/EducationTraining/EtReviews';
 import EtCaseStudy from '../components/EducationTraining/EtCaseStudy';
-import EtExploreMore from '../components/EducationTraining/EtExploreMore';
+import ExploreMore from '../components/Shared/ExploreMore';
 //import EtTestimonialVideo from '../components/EducationTraining/EtTestimonialVideo';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -130,7 +130,24 @@ const EducationTraining = () => {
       <EtTrainingDifferent />
       <EtParticipantsSay />
       <EtCaseStudy />
-      <EtExploreMore />
+      <ExploreMore 
+        title="Explore More\nSolutions"
+        description="From hands-free investing to hands-on farming, we offer flexible ways to work with Farmcult based on your goals."
+        cards={[
+          {
+            title: "Passive Income\nModel",
+            desc: "Invest in a hydroponics farm while Farmcult manages operations end-to-end.",
+            link: "/passive-income",
+            image: "/Shared/piHeader.jpg"
+          },
+          {
+            title: "Turnkey\nSolution",
+            desc: "Farmcult will build and handover a fully operational hydroponics farm on your land.",
+            link: "/turnkey-solution",
+            image: "/Shared/piTurnkeyC1.jpg"
+          }
+        ]}
+      />
       <ContactSection />
       <Footer />
     </motion.div>

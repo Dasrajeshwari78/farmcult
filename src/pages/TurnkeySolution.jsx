@@ -12,7 +12,7 @@ import TsHowItWorks from '../components/TurnkeySolution/TsHowItWorks';
 import CaseStudies from '../components/Home/CaseStudy';
 import TsIncentives from '../components/TurnkeySolution/TsIncentives';
 import TsCaseStudy2 from '../components/TurnkeySolution/TsCaseStudy2';
-import TsExploreMore from '../components/TurnkeySolution/TsExploreMore';
+import ExploreMore from '../components/Shared/ExploreMore';
 import PiIncentives from '../components/PassiveIncome/PiIncentives';
 import TsStatsGrid from '../components/TurnkeySolution/TsStatsGrid';
 
@@ -136,7 +136,24 @@ const TurnkeySolution = () => {
       </section>
 
       <TsCaseStudy2 />
-      <TsExploreMore />
+      <ExploreMore 
+        title="Explore More\nSolutions"
+        description="From hands-free investing to hands-on farming, we offer flexible ways to work with Farmcult based on your goals."
+        cards={[
+          {
+            title: "Passive Income\nModel",
+            desc: "Invest in a hydroponics farm while Farmcult manages operations end-to-end.",
+            link: "/passive-income",
+            image: "/Shared/piHeader.jpg"
+          },
+          {
+            title: "Education &\nTraining",
+            desc: "Learn hydroponics farming through practical training, workshops, and guidance.",
+            link: "/education-and-training",
+            image: "/Shared/piTurnkeyC2.jpg"
+          }
+        ]}
+      />
       <ContactSection />
       <Footer />
     </motion.div>
