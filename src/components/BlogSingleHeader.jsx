@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 const BlogSingleHeader = ({
   tag = "BLOG",
   title = "Ideas Driving Modern Farming",
-  subtitle = "Industry updates, hydroponic knowledge, and practical insights shaping modern agriculture in India.",
+  subtitle = "Industry updates, hydroponics knowledge, and practical insights shaping modern agriculture in India.",
 }) => {
   const headerRef = useRef(null);
 

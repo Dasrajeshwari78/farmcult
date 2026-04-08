@@ -32,7 +32,7 @@ const ParticipantsReviews = () => {
       id: 2,
       reviewer: 'Sandeep dhaliwal',
       time: '4 months ago',
-      content: 'The hydroponic farming training was an incredibly valuable experience. It provided a perfect balance of theoretical knowledge and practical, hands-on skills. I learned how to set up and maintain a hydroponic system, as well...',
+      content: 'The hydroponics farming training was an incredibly valuable experience. It provided a perfect balance of theoretical knowledge and practical, hands-on skills. I learned how to set up and maintain a hydroponics system, as well...',
       image: '/icons/people img 2.png',
       stars: '/icons/5 star.png'
     },

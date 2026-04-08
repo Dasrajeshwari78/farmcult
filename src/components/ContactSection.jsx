@@ -98,7 +98,7 @@ const ContactSection = () => {
               </h2>
               <p className="text-[16px] text-white mt-16 mb-12 leading-[32px] font-inter">
                 We work closely with landowners and investors to build
-                sustainable <br /> hydroponic farms. From planning to
+                sustainable <br /> hydroponics farms. From planning to
                 operations, our team supports you <br /> at every stage.
               </p>
             </div>

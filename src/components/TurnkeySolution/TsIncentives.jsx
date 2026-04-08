@@ -12,7 +12,7 @@ const TsIncentives = () => {
                 Government Incentives<br className="hidden md:block" /> Reduce Your Initial Investment
               </h2>
               <p className="ts-incentives-text text-[1.1rem] text-[#555] leading-[1.8] mb-8">
-                Eligible hydroponic projects can receive capital subsidies of up to 50%, helping reduce initial investment and improve long-term viability.
+                Eligible hydroponics projects can receive capital subsidies of up to 50%, helping reduce initial investment and improve long-term viability.
               </p>
             </div>
             <p className="ts-incentives-text text-[0.85rem] text-[#888] italic mt-10 lg:mt-0">

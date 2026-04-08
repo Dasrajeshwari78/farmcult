@@ -3,13 +3,13 @@ const caseStudies = [
     id: 1,
     title: "2 Acres.\n24,000 Plants.",
     description:
-      "What was once idle land is now a working hydroponic farm. Results from Farmcult's first operational hydroponic farm in Garhmukteshwar.",
+      "What was once idle land is now a working hydroponics farm. Results from Farmcult's first operational hydroponics farm in Garhmukteshwar.",
     date: "Jan 2025",
     image: "/CShomepage.jpg",
     location: "Garh Mukhteshwar, Uttar Pradesh",
     projectSize: "2 Acres",
     clientProfile: "Young Entrepreneur in Hospitality & Restaurant Business",
-    projectType: "Turnkey Hydroponic Farm Development",
+    projectType: "Turnkey Hydroponics Farm Development",
     selectedIds: [2, 3],
   },
 
@@ -24,7 +24,7 @@ const caseStudies = [
     location: "30 km from Amritsar, Punjab",
     projectSize: "2 Acres",
     clientProfile: "Former Professional Footballer (I-League & ISL), Age 32",
-    projectType: "Turnkey Hydroponic Farm Setup",
+    projectType: "Turnkey Hydroponics Farm Setup",
     selectedIds: [1, 3],
   },
 

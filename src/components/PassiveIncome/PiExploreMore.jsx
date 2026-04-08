@@ -108,7 +108,7 @@ const PiExploreMore = () => {
             </div>
             <div className="explore-card-bottom relative z-10 w-full flex flex-col gap-[50px] md:gap-6 justify-end">
               <p className="explore-card-desc font-inter text-[15px] md:text-[15px] font-normal leading-[29px] text-[#F7F7F7] m-0 w-full h-auto">
-                Farmcult will build a fully operational hydroponic farm on your
+                Farmcult will build a fully operational hydroponics farm on your
                 land.
               </p>
               <Link to="/turnkey-solution">
@@ -139,7 +139,7 @@ const PiExploreMore = () => {
             </div>
             <div className="explore-card-bottom relative z-10 w-full flex flex-col gap-[50px] md:gap-6 justify-end">
               <p className="explore-card-desc font-inter text-[15px] md:text-[15px] font-normal leading-[29px] text-[#F7F7F7] m-0 w-full h-auto">
-                Learn hydroponic farming through practical training, workshops,
+                Learn hydroponics farming through practical training, workshops,
                 and guidance.
               </p>
               <Link to="/education-and-training">

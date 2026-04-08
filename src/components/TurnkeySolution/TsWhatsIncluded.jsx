@@ -14,7 +14,7 @@ const TsWhatsIncluded = () => {
             </h2>
 
             <p className="font-inter text-[16px] md:text-[15px] font-normal leading-[26px] md:leading-[29px] text-text-primary mb-6">
-              Farmcult's turnkey model covers every stage of setting up a high-tech hydroponic farm. From design and infrastructure to crop planning and operational readiness.
+              Farmcult's turnkey model covers every stage of setting up a high-tech hydroponics farm. From design and infrastructure to crop planning and operational readiness.
             </p>
 
             {/* ✅ BULLETS */}
@@ -25,7 +25,7 @@ const TsWhatsIncluded = () => {
                 "Automation & climate control",
                 "Polyhouse construction",
                 "Crop planning & agronomy",
-                "Hydroponic system installation",
+                "Hydroponics system installation",
                 "Market linkages post-harvest",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
@@ -54,7 +54,7 @@ const TsWhatsIncluded = () => {
             <div className="relative w-full h-full overflow-hidden rounded-[16px]">
               <img 
                 src="/TkWhatsIncluded.jpg" 
-                alt="Turnkey Hydroponic Farm" 
+                alt="Turnkey Hydroponics Farm" 
                 className="w-full h-full object-cover rounded-[16px]"
                 onError={(e) => { e.target.src = '/ourSolutionCard3.jpg'; }}
               />

@@ -2,7 +2,7 @@ function Content4() {
   return (
     <div className="space-y-6">
       <p>
-        Break-even is not a buzzword. It is the moment your hydroponic farm
+        Break-even is not a buzzword. It is the moment your hydroponics farm
         stops recovering money and starts making money.
       </p>
       <p>
@@ -25,7 +25,7 @@ function Content4() {
       </p>
       <p>
         In controlled environment farming, small differences in crop choice or
-        cost management can significantly change farm ROI. The same hydroponic
+        cost management can significantly change farm ROI. The same hydroponics
         farming business can reach break-even faster or slower depending on
         these decisions.
       </p>

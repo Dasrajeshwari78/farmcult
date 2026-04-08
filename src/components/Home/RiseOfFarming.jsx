@@ -14,7 +14,7 @@ const RiseOfFarming = () => {
               The Rise of Modern<br />Farming in India
             </h2>
             <p className="rise-desc font-inter text-[16px] md:text-[15px] font-normal leading-[26px] md:leading-[29px] text-text-secondary w-full md:h-auto m-0 md:w-[382px]">
-              Rapid urban demand, water stress, and government support are accelerating hydroponic adoption across key Indian states.
+              Rapid urban demand, water stress, and government support are accelerating hydroponics adoption across key Indian states.
             </p>
 
             <div className="states-capsule-grid flex flex-wrap gap-[10px] md:gap-4 md:mt-5 md:w-[362px] w-full">
