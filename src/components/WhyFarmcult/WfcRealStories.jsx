@@ -44,7 +44,7 @@ const WfcRealStories = () => {
           <div className="w-full lg:w-[455px] lg:h-[500px] mt-10 lg:mt-0">
             <div className="relative w-full h-full min-h-[450px] lg:min-h-0 overflow-hidden rounded-[16px] group">
               <video
-                src="/WhyFarmcult/Wfcvideo.mp4"
+                src="/whyFarmCult/Wfcvideo.mp4"
                 className="w-full h-full object-cover rounded-[16px]"
                 autoPlay
                 loop

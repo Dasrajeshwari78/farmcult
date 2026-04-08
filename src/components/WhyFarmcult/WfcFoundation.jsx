@@ -11,7 +11,7 @@ const WfcFoundation = () => {
               <span className="text-left">Pritpal Singh, Founder &amp; CEO</span>
             </div>
             <a href="https://www.linkedin.com/in/pritpalsingh2610" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110 flex items-center justify-center p-1" aria-label="LinkedIn Profile">
-              <img src="/WhyFarmcult/icons/linkedin.png" alt="LinkedIn" className="w-[20px] h-[20px] object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.1)]" />
+              <img src="/whyFarmCult/icons/linkedin.png" alt="LinkedIn" className="w-[20px] h-[20px] object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.1)]" />
             </a>
           </div>
           <p className="wfc-foundation-desc text-[16px] md:text-[15px] text-text-primary leading-[1.8] md:leading-[29px] mb-6 md:mb-8">
@@ -29,7 +29,7 @@ const WfcFoundation = () => {
         </div>
         <div className="wfc-foundation-image-col w-full h-[300px] sm:h-[400px] lg:h-[446px] mt-4 lg:mt-0">
           <img
-            src="/WhyFarmcult/founderimg1.jpg"
+            src="/whyFarmCult/founderimg1.jpg"
             alt="Pritpal Singh, Founder & CEO"
             className="w-full h-full object-cover rounded-2xl md:rounded-[32px] shadow-sm"
           />
