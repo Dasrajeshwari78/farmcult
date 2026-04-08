@@ -1,7 +1,7 @@
 import React from "react";
-import CaseStudiesHeader from "../components/CaseStudiesHeader";
-import ContactSection from "../components/ContactSection";
-import Footer from "../components/Footer";
+import CaseStudiesHeader from "../components/CaseStudies/CaseStudiesHeader";
+import ContactSection from "../components/Shared/ContactSection";
+import Footer from "../components/Shared/Footer";
 import { Link, Navigate } from "react-router-dom";
 // import casestudies from "../assets/docs/blogs.js";
 import caseStudies from "../assets/docs/case_studies.js";

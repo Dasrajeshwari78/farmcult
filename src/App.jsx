@@ -4,7 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
-import Navbar from './components/Navbar';
+import Navbar from './components/Shared/Navbar';
 import { lazy, Suspense } from 'react';
 
 const Home = lazy(() => import('./pages/Home'));

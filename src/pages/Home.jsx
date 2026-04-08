@@ -12,8 +12,8 @@ import CaseStudy from '../components/Home/CaseStudy';
 import FarmcultMedia from '../components/Home/FarmcultMedia';
 import ParticipantsReviews from '../components/Home/ParticipantsReviews';
 import FAQ from '../components/Home/FAQ';
-import ContactSection from '../components/ContactSection';
-import Footer from '../components/Footer';
+import ContactSection from '../components/Shared/ContactSection';
+import Footer from '../components/Shared/Footer';
 
 // FIX 1: Removed 'y' offset from pageTransition. 
 // Framer Motion translating the wrapper while GSAP translates the children 

@@ -1,6 +1,6 @@
-import CaseStudySingleHeader from "../../components/CaseStudySingleHeader.jsx";
-import ContactSection from "../../components/ContactSection.jsx";
-import Footer from "../../components/Footer.jsx";
+import CaseStudySingleHeader from "../../components/CaseStudies/CaseStudySingleHeader";
+import ContactSection from "../../components/Shared/ContactSection";
+import Footer from "../../components/Shared/Footer";
 import NotFound from "../NotFound.jsx";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
