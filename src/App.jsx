@@ -18,7 +18,6 @@ const CaseStudies = lazy(() => import('./pages/CaseStudies'));
 const Blog = lazy(() => import('./pages/[...Blog]'));
 const CaseStudy = lazy(() => import('./pages/[...CaseStudy]'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-import TopBanner from './components/TopBanner';
 
 gsap.registerPlugin(ScrollTrigger);
 
