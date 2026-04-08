@@ -100,7 +100,7 @@ const IotMonitoring = () => {
         <div className="iot-center-image relative w-full lg:w-[340px] xl:w-[380px] rounded-2xl self-stretch order-1 lg:order-2 h-[300px] sm:h-[400px] lg:h-full bg-[#EFEEEE] p-4 lg:p-6">
           <div className="relative w-full h-full rounded-xl overflow-hidden">
             <img
-              src="/new.jpeg"
+              src="/technology/iotmonitoringimg.jpeg"
               alt="IoT Farm Monitoring"
               className="w-full h-full object-cover object-center"
             />
