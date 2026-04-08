@@ -6,8 +6,8 @@ import { Link, Navigate } from "react-router-dom";
 // import casestudies from "../data/blogs.js";
 import caseStudies from "../data/case_studies.js";
 
-const firstCaseStudy = caseStudies.find((caseStudy) => caseStudy.id === 1);
-const otherCaseStudies = caseStudies.filter((caseStudy) => caseStudy.id !== 1);
+const firstCaseStudy = caseStudies.find((caseStudy) => caseStudy.id === "2-acres-24000-plants");
+const otherCaseStudies = caseStudies.filter((caseStudy) => caseStudy.id !== "2-acres-24000-plants");
 
 const CaseStudies = () => {
   return (

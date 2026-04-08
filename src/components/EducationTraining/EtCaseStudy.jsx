@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const EtCaseStudy = ({ bgColor = "bg-[#F7F7F7]" }) => {
   const sectionRef = useRef(null);
-  const caseStudy = caseStudies.find(cs => cs.id === 3);
+  const caseStudy = caseStudies.find(cs => cs.id === "kids-explore-hydroponics");
 
   useGSAP(() => {
     // Initial reveal of the card container

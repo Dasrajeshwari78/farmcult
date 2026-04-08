@@ -11,9 +11,9 @@ import Content2 from "../../components/casestudiescontent/caseStudy2.jsx";
 import Content3 from "../../components/casestudiescontent/caseStudy3.jsx";
 
 const componentMap = {
-  1: Content1,
-  2: Content2,
-  3: Content3,
+  "2-acres-24000-plants": Content1,
+  "football-to-farming": Content2,
+  "kids-explore-hydroponics": Content3,
 };
 
 const handleNavigate = () => {
@@ -29,7 +29,7 @@ function DynamicRenderer({ type }) {
 const CaseStudy = () => {
   const { id } = useParams();
 
-  const caseStudy = caseStudies.find((c) => c.id === Number(id));
+  const caseStudy = caseStudies.find((c) => c.id === id);
 
   if (!caseStudy) {
     return <NotFound />;

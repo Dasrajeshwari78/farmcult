@@ -5,8 +5,8 @@ import Footer from "../components/Shared/Footer";
 import { Link } from "react-router-dom";
 import blogs from "../data/blogs.js";
 
-const firstBlog = blogs.find((blog) => blog.id === 1);
-const otherBlogs = blogs.filter((blog) => blog.id !== 1);
+const firstBlog = blogs.find((blog) => blog.id === "hydroponics-crop-selection");
+const otherBlogs = blogs.filter((blog) => blog.id !== "hydroponics-crop-selection");
 
 const Blogs = () => {
   return (

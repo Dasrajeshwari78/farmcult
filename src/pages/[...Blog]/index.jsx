@@ -12,10 +12,10 @@ import Content3 from "../../components/blogscontent/blog3.jsx";
 import Content4 from "../../components/blogscontent/blog4.jsx";
 
 const componentMap = {
-  1: Content1,
-  2: Content2,
-  3: Content3,
-  4: Content4,
+  "hydroponics-crop-selection": Content1,
+  "soil-vs-hydroponics": Content2,
+  "why-hydroponics-farms-fail": Content3,
+  "hydroponics-break-even": Content4,
 };
 
 const handleNavigate = () => {
@@ -31,7 +31,7 @@ function DynamicRenderer({ type }) {
 const Blog = () => {
   const { id } = useParams();
 
-  const blog = blogs.find((b) => b.id === Number(id));
+  const blog = blogs.find((b) => b.id === id);
 
   if (!blog) {
     return <NotFound />;
