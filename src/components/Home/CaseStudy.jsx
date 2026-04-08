@@ -56,7 +56,7 @@ const CaseStudy = ({ bgColor = "bg-white" }) => {
     },
     { scope: sectionRef },
   );
-  const firstCaseStudy = caseStudies.find((caseStudy) => caseStudy.id === 1);
+  const firstCaseStudy = caseStudies.find((caseStudy) => caseStudy.id === "2-acres-24000-plants");
 
   return (
     <section

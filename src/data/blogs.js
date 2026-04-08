@@ -1,39 +1,39 @@
 const blogs = [
   {
-    id: 1,
+    id: "hydroponics-crop-selection",
     title: "Hydroponics Crop Selection for Stable ROI",
     description:
       "How the right hydroponics crop selection improves demand predictability, pricing stability, and commercial success",
     date: "Jan 2025",
     image: "/blogs/IdeaDrivingModernFarming.jpg",
-    selectedIds: [2, 3],
+    selectedIds: ["soil-vs-hydroponics", "why-hydroponics-farms-fail"],
   },
   {
-    id: 2,
+    id: "soil-vs-hydroponics",
     title: "Soil vs Hydroponics: Yield per Square Foot",
     description:
       "Why hydroponics farming systems deliver faster cycles, stable output, and higher annual yield",
     date: "Jan 2025",
     image: "/blogs/blog2.jpg",
-    selectedIds: [3, 4],
+    selectedIds: ["why-hydroponics-farms-fail", "hydroponics-break-even"],
   },
   {
-    id: 3,
+    id: "why-hydroponics-farms-fail",
     title: "Why Hydrophonic Farms Fail",
     description:
       "The real reason most commercial hydroponics projects struggle",
     date: "Jan 2025",
     image: "/blogs/WhyHydroponicsFarmsFail.jpg",
-    selectedIds: [2, 4],
+    selectedIds: ["soil-vs-hydroponics", "hydroponics-break-even"],
   },
   {
-    id: 4,
+    id: "hydroponics-break-even",
     title: "Hydroponics Break Even Explained",
     description:
       "How crop choice, pricing and planning decide your ROI timeline.",
     date: "Jan 2025",
     image: "/blogs/blog4.jpg",
-    selectedIds: [2, 3],
+    selectedIds: ["soil-vs-hydroponics", "why-hydroponics-farms-fail"],
   },
 ];
 

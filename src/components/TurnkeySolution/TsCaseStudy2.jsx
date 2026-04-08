@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const TsCaseStudy2 = () => {
   const sectionRef = useRef(null);
-  const caseStudy = caseStudies.find(cs => cs.id === 2);
+  const caseStudy = caseStudies.find(cs => cs.id === "football-to-farming");
 
   useGSAP(
     () => {
