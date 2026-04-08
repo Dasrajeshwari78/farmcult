@@ -31,7 +31,7 @@ const ScrollToTop = () => {
     // Only scroll to top if not navigating via back/forward browser buttons
     if (navigationType !== 'POP') {
       window.scrollTo(0, 0);
-      
+
       // Instantly reset Lenis scroll position if it exists
       if (window.lenis) {
         window.lenis.scrollTo(0, { immediate: true });
@@ -56,7 +56,7 @@ const AnimatedRoutes = () => {
         </div>
       )}
       <AnimatePresence mode="wait" initial={false}>
-        <Suspense fallback={<div className="min-h-screen w-full flex items-center justify-center"><div className="w-12 h-12 border-4 border-accent border-t-transparent rounded-full animate-spin"></div></div>}>
+        <Suspense fallback={<div className="min-h-screen w-full bg-transparent"></div>}>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/passive-income" element={<PassiveIncome />} />
