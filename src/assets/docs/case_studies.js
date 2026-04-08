@@ -5,7 +5,7 @@ const caseStudies = [
     description:
       "What was once idle land is now a working hydroponics farm. Results from Farmcult's first operational hydroponics farm in Garhmukteshwar.",
     date: "Jan 2025",
-    image: "/CShomepage.jpg",
+    image: "/case-studies/CShomepage.jpg",
     location: "Garh Mukhteshwar, Uttar Pradesh",
     projectSize: "2 Acres",
     clientProfile: "Young Entrepreneur in Hospitality & Restaurant Business",

@@ -45,7 +45,7 @@ const Footer = () => {
           {/* Logo and Tagline Section */}
           <div className="lg:col-span-4 flex flex-col">
             <Link to="/" className="inline-block mb-10">
-              <img src="/Farmcult_Logo.png" alt="Farmcult Logo" className="h-10 lg:h-12" />
+              <img src="/Shared/Farmcult_Logo.png" alt="Farmcult Logo" className="h-10 lg:h-12" />
             </Link>
           </div>
 

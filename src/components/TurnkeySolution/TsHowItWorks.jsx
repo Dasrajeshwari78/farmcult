@@ -23,7 +23,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 1
               </div>
-              <img src="/turnKey/tkIcon1.svg" alt="Site Feasibility" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon1.svg" alt="Site Feasibility" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Site<br className="hidden lg:block" /> Feasibility</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">Land and resource assessment</p>
@@ -35,7 +35,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 2
               </div>
-              <img src="/turnKey/tkIcon2.svg" alt="Paperwork & Planning" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon2.svg" alt="Paperwork & Planning" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Paperwork &<br className="hidden lg:block" /> Planning</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">Documentation and farm planning</p>
@@ -47,7 +47,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 3
               </div>
-              <img src="/turnKey/tkIcon3.svg" alt="Construction & Installation" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon3.svg" alt="Construction & Installation" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Construction &<br className="hidden lg:block" /> Installation</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">Greenhouse and system setup</p>
@@ -59,7 +59,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 4
               </div>
-              <img src="/turnKey/tkIcon4.svg" alt="Full Stack Crop Agronomy" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon4.svg" alt="Full Stack Crop Agronomy" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Full Stack Crop<br className="hidden lg:block" /> Agronomy</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">Crop plantation begins</p>
@@ -71,7 +71,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 5
               </div>
-              <img src="/turnKey/tkIcon5.svg" alt="Standard Operating Procedure's" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon5.svg" alt="Standard Operating Procedure's" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Standard Operating<br className="hidden lg:block" /> Procedure's</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">SOPs taught and practiced on the farms</p>
@@ -83,7 +83,7 @@ const TsHowItWorks = () => {
               <div className="absolute top-0 -left-1 w-6 h-6 rounded-full bg-gray-100 border border-gray-300 flex items-center justify-center text-[0.7rem] font-bold text-gray-500 z-20">
                 6
               </div>
-              <img src="/turnKey/tkIcon6.svg" alt="Market Linkage" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
+              <img src="/TurnkeySolution/icons/tkIcon6.svg" alt="Market Linkage" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
             </div>
             <h3 className="font-inter font-bold text-[16px] md:text-[18px] leading-[24px] text-black mb-1 md:mb-2 px-1">Market<br className="hidden lg:block" /> Linkage</h3>
             <p className="font-inter font-normal text-[14px] md:text-[12px] leading-[24px] text-text-secondary px-2">Linking your produce to market</p>

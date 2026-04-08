@@ -66,10 +66,10 @@ const EtWorkshops = () => {
           <div className="w-full lg:w-[455px] lg:h-[396px] mt-10 lg:mt-0">
             <div className="relative w-full h-full overflow-hidden rounded-[16px]">
               <img
-                src="/Workshop.png"
+                src="/EducationTraining/Workshop.png"
                 alt="Hydroponics Workshop"
                 className="w-full h-full object-cover rounded-[16px]"
-                onError={(e) => { e.target.src = '/contactFromimg.jpg'; }}
+                onError={(e) => { e.target.src = '/Shared/contactFromimg.jpg'; }}
               />
               <div className="absolute inset-0 bg-black/5 rounded-[16px]"></div>
             </div>

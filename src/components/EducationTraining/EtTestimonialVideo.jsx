@@ -8,7 +8,7 @@ const EtTestimonialVideo = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/Heroimg.jpg')" }}
+        style={{ backgroundImage: "url('/EducationTraining/Heroimg.jpg')" }}
       ></div>
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/40"></div> 

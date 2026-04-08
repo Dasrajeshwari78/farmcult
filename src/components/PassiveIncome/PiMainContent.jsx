@@ -74,7 +74,7 @@ const PiMainContent = () => {
             <div className="w-full lg:w-[455px] lg:h-[507px] mt-10 lg:mt-0">
               <div className="pb-[60%] lg:pb-[70%] relative w-full h-full overflow-hidden rounded-[16px] group">
                 <img
-                  src="/passiveIncome/piWhatsincluded.jpg"
+                  src="/PassiveIncome/piWhatsincluded.jpg"
                   alt="Passive Income Farming"
                   className="absolute inset-0 w-full h-full object-cover rounded-3xl"
                 />

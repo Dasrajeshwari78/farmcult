@@ -54,12 +54,12 @@ const EtParticipantsSay = () => {
 
           <div className="w-full mt-auto et-participants-img-left grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
             <img
-              src="/Training1.jpg"
+              src="/EducationTraining/Training1.jpg"
               alt="Participants on-site"
               className="w-full h-[200px] sm:h-[250px] md:h-[280px] object-cover rounded-[16px] md:rounded-[24px]"
             />
             <img
-              src="/solutions/newSectionImgEducationalAndTraining.jpeg"
+              src="/EducationTraining/EducationalAndTraining.jpeg"
               alt="Participants training session"
               className="w-full h-[200px] sm:h-[250px] md:h-[280px] object-cover rounded-[16px] md:rounded-[24px]"
             />
@@ -69,7 +69,7 @@ const EtParticipantsSay = () => {
         {/* Right Column: Portrait Image/Video */}
         <div className="w-full h-[400px] md:h-[600px] lg:h-auto lg:max-h-[550px] et-participants-img-right relative group">
           <video
-            src="/Trainingvideo.mp4"
+            src="/EducationTraining/Trainingvideo.mp4"
             autoPlay
             loop
             muted={isMuted}

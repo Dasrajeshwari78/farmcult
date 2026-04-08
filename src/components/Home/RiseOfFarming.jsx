@@ -29,7 +29,7 @@ const RiseOfFarming = () => {
           {/* Right Map Visual Area */}
           <div className="rise-map-side w-full flex justify-center lg:justify-end">
             <div className="impact-map-card w-[370px] h-[300px] md:w-[669px] md:h-[472px] md:aspect-video bg-[#8D8D8D] rounded-[16px] md:rounded-2xl relative overflow-hidden flex items-center justify-center">
-              <img src="/riseOfModernFarming.jpg" alt="India Hydroponics Impact Map" className="impact-map-img w-full h-full object-cover md:object-fill" />
+              <img src="/Home/riseOfModernFarming.jpg" alt="India Hydroponics Impact Map" className="impact-map-img w-full h-full object-cover md:object-fill" />
             </div>
           </div>
 
