@@ -4,9 +4,8 @@ import Footer from "../../components/Shared/Footer";
 import NotFound from "../NotFound.jsx";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
-import caseStudies from "../../assets/docs/case_studies.js";
+
+import caseStudies from "../../data/case_studies.js";
 import Content1 from "../../components/casestudiescontent/caseStudy1.jsx";
 import Content2 from "../../components/casestudiescontent/caseStudy2.jsx";
 import Content3 from "../../components/casestudiescontent/caseStudy3.jsx";
@@ -110,7 +109,7 @@ const CaseStudy = () => {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img src={instagram} alt="Instagram" className="w-6 h-6" />
+                <img src="/icons/instagram.svg" alt="Instagram" className="w-6 h-6" />
               </a>
 
               <a
@@ -119,7 +118,7 @@ const CaseStudy = () => {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img src={linkedin} alt="Linkedin" className="w-6 h-6" />
+                <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
               </a>
             </div>
           </div>

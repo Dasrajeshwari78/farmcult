@@ -4,9 +4,8 @@ import ContactSection from "../../components/Shared/ContactSection";
 import Footer from "../../components/Shared/Footer";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import instagram from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
-import blogs from "../../assets/docs/blogs.js";
+
+import blogs from "../../data/blogs.js";
 import Content1 from "../../components/blogscontent/blog1.jsx";
 import Content2 from "../../components/blogscontent/blog2.jsx";
 import Content3 from "../../components/blogscontent/blog3.jsx";
@@ -72,7 +71,7 @@ const Blog = () => {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img src={instagram} alt="Instagram" className="w-6 h-6" />
+                <img src="/icons/instagram.svg" alt="Instagram" className="w-6 h-6" />
               </a>
 
               <a
@@ -81,7 +80,7 @@ const Blog = () => {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img src={linkedin} alt="Linkedin" className="w-6 h-6" />
+                <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
               </a>
             </div>
           </div>
