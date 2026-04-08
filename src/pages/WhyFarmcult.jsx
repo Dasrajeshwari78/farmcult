@@ -12,8 +12,8 @@ import WfcRealStories from "../components/WhyFarmcult/WfcRealStories";
 import ParticipantsReviews from '../components/Home/ParticipantsReviews';
 /*import WfcBanner from '../components/WhyFarmcult/WfcBanner';*/
 import WfcTeam from '../components/WhyFarmcult/WfcTeam';
-import ContactSection from '../components/ContactSection';
-import Footer from '../components/Footer';
+import ContactSection from '../components/Shared/ContactSection';
+import Footer from '../components/Shared/Footer';
 
 const pageTransition = {
   initial: { opacity: 0, y: 20 },

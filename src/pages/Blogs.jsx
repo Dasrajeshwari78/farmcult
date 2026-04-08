@@ -1,7 +1,7 @@
 import React from "react";
-import BlogsHeader from "../components/BlogsHeader";
-import ContactSection from "../components/ContactSection";
-import Footer from "../components/Footer";
+import BlogsHeader from "../components/Blogs/BlogsHeader";
+import ContactSection from "../components/Shared/ContactSection";
+import Footer from "../components/Shared/Footer";
 import { Link } from "react-router-dom";
 import blogs from "../assets/docs/blogs.js";
 

@@ -2,9 +2,9 @@ import React from 'react';
 import WfcHeader from '../components/WhyFarmcult/WfcHeader';
 import SmartIntegration from '../components/technology/SmartIntegration';
 import IotMonitoring from '../components/technology/IotMonitoring';
-import ContactSection from '../components/ContactSection';
+import ContactSection from '../components/Shared/ContactSection';
 import TechCards from '../components/technology/TechCards';
-import Footer from '../components/Footer';
+import Footer from '../components/Shared/Footer';
 
 
 const Technology = () => {

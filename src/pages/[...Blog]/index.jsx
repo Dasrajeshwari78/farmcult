@@ -1,7 +1,7 @@
-import BlogSingleHeader from "../../components/BlogSingleHeader.jsx";
+import BlogSingleHeader from "../../components/Blogs/BlogSingleHeader";
 import NotFound from "../NotFound.jsx";
-import ContactSection from "../../components/ContactSection";
-import Footer from "../../components/Footer";
+import ContactSection from "../../components/Shared/ContactSection";
+import Footer from "../../components/Shared/Footer";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import instagram from "../../assets/instagram.svg";
