@@ -1,7 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+const SECRET_TOKEN = "FARMCULT";
+const ALLOWED_ORIGIN = "https://farmcult.vercel.app/"; // UPDATE THIS BEFORE PRODUCTION
+const PREV_SUBMIT_KEY = "_fc_last_contact";
+const COOLDOWN_MS = 60000;
+
+const utf8ToBase64 = (str) => {
+  return window.btoa(unescape(encodeURIComponent(str)));
+};
+
 const ContactSection = () => {
+  const [formLoadTime, setFormLoadTime] = useState(0);
+
+  useEffect(() => {
+    setFormLoadTime(Date.now());
+  }, []);
   const [errorMsg, setErrorMsg] = useState(null);
   const [successMsg, setSuccessMsg] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -11,12 +25,51 @@ const ContactSection = () => {
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData.entries());
 
-    // Validation
     if (!data.firstName?.trim() || !data.lastName?.trim() || !data.phone?.trim()) {
       setErrorMsg("First Name, Last Name, and Phone Number are mandatory.");
       setTimeout(() => setErrorMsg(null), 3000);
       return;
     }
+
+    const silentlyDrop = () => {
+      setIsSubmitting(true);
+      setTimeout(() => {
+        setIsSubmitting(false);
+        setSuccessMsg("Message sent successfully! We will get back to you soon.");
+        e.target.reset();
+        setTimeout(() => setSuccessMsg(null), 4000);
+      }, 1500);
+    };
+
+    const lastSubmit = localStorage.getItem(PREV_SUBMIT_KEY);
+    if (lastSubmit && (Date.now() - parseInt(lastSubmit, 10)) < COOLDOWN_MS) {
+      return silentlyDrop();
+    }
+
+    const payload = {
+      firstName: (data.firstName || "").toString().trim().substring(0, 100).replace(/[<>]/g, ""),
+      lastName: (data.lastName || "").toString().trim().substring(0, 100).replace(/[<>]/g, ""),
+      email: (data.email || "").toString().trim().substring(0, 150).replace(/[<>]/g, ""),
+      phone: (data.phone || "").toString().trim().substring(0, 20).replace(/[<>]/g, ""),
+      service: (data.service || "").toString().trim().substring(0, 100).replace(/[<>]/g, ""),
+      message: (data.message || "").toString().trim().substring(0, 1000).replace(/[<>]/g, ""),
+      website_url: (data.website_url || "").toString(),
+      duration: Math.max(0, Date.now() - formLoadTime)
+    };
+
+    if (payload.website_url || payload.duration < 1500) {
+      return silentlyDrop();
+    }
+
+    const signatureString = `${payload.firstName}|${payload.lastName}|${payload.email}|${payload.phone}|${payload.service}|${payload.website_url}|${payload.duration}|${SECRET_TOKEN}`;
+    const signature = utf8ToBase64(signatureString);
+
+    const requestData = {
+      token: SECRET_TOKEN,
+      signature: signature,
+      origin: ALLOWED_ORIGIN,
+      payload: payload
+    };
 
     try {
       setIsSubmitting(true);
@@ -24,13 +77,17 @@ const ContactSection = () => {
         "https://script.google.com/macros/s/AKfycbzRhD1hCyyCc5CoY_PVuRpOdfcaQ0amIh1FAUpzMiGMmYc3c5WPxCpw2PjpCpoMMt2y/exec",
         {
           method: "POST",
-          body: JSON.stringify(data),
-        },
+          headers: {
+            "Content-Type": "text/plain;charset=utf-8",
+          },
+          body: JSON.stringify(requestData),
+        }
       );
 
       const result = await res.json();
-      console.log(result);
+      console.log("Response:", result);
 
+      localStorage.setItem(PREV_SUBMIT_KEY, Date.now().toString());
       setSuccessMsg("Message sent successfully! We will get back to you soon.");
       e.target.reset();
       setTimeout(() => setSuccessMsg(null), 4000);
@@ -138,6 +195,13 @@ const ContactSection = () => {
                   className="flex flex-col gap-8"
                   onSubmit={(e) => handleSubmit(e)}
                 >
+                  <input
+                    type="text"
+                    name="website_url"
+                    tabIndex="-1"
+                    autoComplete="off"
+                    className="absolute opacity-0 -z-10 w-0 h-0 pointer-events-none"
+                  />
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
                     <div className="form-group flex flex-col gap-2 group">
                       <label className="text-sm font-semibold text-[#1A1A1A]/60 font-inter transition-colors group-focus-within:text-black">
