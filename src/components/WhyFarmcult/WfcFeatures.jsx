@@ -16,7 +16,7 @@ const WfcFeatures = () => {
             <div className="absolute left-0 top-[12px] w-[8px] h-[8px] bg-[#8DC83A] rounded-full block md:hidden"></div>
             
             <div className="wfc-feature-icon w-6 h-6 md:w-[16px] md:h-[28px] flex items-center justify-center mb-4 md:mb-6">
-              <img src="/icons/icon 1.svg" alt="Technology-led icon" className="w-full h-full" />
+              <img src="/Shared/icons/icon1.svg" alt="Technology-led icon" className="w-full h-full" />
             </div>
             <h3 className="wfc-feature-title text-[24px] md:text-[clamp(20px,2.5vw,32px)] xl:text-[32px] md:leading-[48px] font-medium mb-2 md:mb-[60px] text-black whitespace-nowrap">
               Technology-led
@@ -32,7 +32,7 @@ const WfcFeatures = () => {
              <div className="absolute left-0 top-[12px] w-[8px] h-[8px] bg-[#8DC83A] rounded-full block md:hidden"></div>
              
             <div className="wfc-feature-icon w-6 h-6 md:w-[25px] md:h-[28px] flex items-center justify-center mb-4 md:mb-6">
-              <img src="/icons/icon 2.svg" alt="Sustainable icon" className="w-full h-full" />
+              <img src="/Shared/icons/icon2.svg" alt="Sustainable icon" className="w-full h-full" />
             </div>
             <h3 className="wfc-feature-title text-[24px] md:text-[clamp(20px,2.5vw,32px)] xl:text-[32px] md:leading-[48px] font-medium mb-2 md:mb-[60px] text-black whitespace-nowrap">
               Sustainable
@@ -48,7 +48,7 @@ const WfcFeatures = () => {
              <div className="absolute left-0 top-[12px] w-[8px] h-[8px] bg-[#8DC83A] rounded-full block md:hidden"></div>
              
             <div className="wfc-feature-icon w-6 h-6 md:w-[25px] md:h-[28px] flex items-center justify-center mb-4 md:mb-6">
-              <img src="/icons/icon 3.svg" alt="Scaleable icon" className="w-full h-full" />
+              <img src="/Shared/icons/icon3.svg" alt="Scaleable icon" className="w-full h-full" />
             </div>
             <h3 className="wfc-feature-title text-[24px] md:text-[clamp(20px,2.5vw,32px)] xl:text-[32px] md:leading-[48px] font-medium mb-2 md:mb-[60px] text-black whitespace-nowrap">
               Scaleable

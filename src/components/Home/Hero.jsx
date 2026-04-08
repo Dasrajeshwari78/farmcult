@@ -12,7 +12,7 @@ const Hero = () => {
           playsInline
           className="w-full h-full object-cover object-center will-change-transform"
         >
-          <source src="/farmcult hero video.mp4" type="video/mp4" />
+          <source src="/Home/farmcult_hero_video.mp4" type="video/mp4" />
         </video>
         {/* Dark Overlay for text readability */}
         <div className="absolute inset-0 bg-black/40 z-10"></div>

@@ -53,10 +53,10 @@ const TsWhatsIncluded = () => {
           <div className="w-full lg:w-[455px] lg:h-[396px] mt-10 lg:mt-0">
             <div className="relative w-full h-full overflow-hidden rounded-[16px]">
               <img 
-                src="/TkWhatsIncluded.jpg" 
+                src="/TurnkeySolution/TkWhatsIncluded.jpg" 
                 alt="Turnkey Hydroponics Farm" 
                 className="w-full h-full object-cover rounded-[16px]"
-                onError={(e) => { e.target.src = '/ourSolutionCard3.jpg'; }}
+                onError={(e) => { e.target.src = '/TurnkeySolution/ourSolutionCard3.jpg'; }}
               />
               <div className="absolute inset-0 bg-black/5 rounded-[16px]"></div>
             </div>

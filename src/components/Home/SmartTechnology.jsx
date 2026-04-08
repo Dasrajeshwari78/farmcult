@@ -41,15 +41,15 @@ const SmartTechnology = () => {
 
   const features = [
     {
-      icon: '/icons/icon4.png',
+      icon: '/Home/icons/icon4.png',
       text: 'IoT-enabled farm monitoring',
     },
     {
-      icon: '/icons/icon 5.png',
+      icon: '/Home/icons/icon5.png',
       text: 'Custom farm solutions',
     },
     {
-      icon: '/icons/icon 6.png',
+      icon: '/Home/icons/icon6.png',
       text: 'Data-driven decision making',
     },
   ];
@@ -78,7 +78,7 @@ const SmartTechnology = () => {
         <div className="smart-tech-card relative w-[370px] md:w-full max-w-none md:max-w-[704px] h-[218px] md:h-[327px] md:aspect-[16/7.5] rounded-[16px] md:rounded-2xl overflow-hidden shadow-none md:shadow-[0_20px_50px_rgba(0,0,0,0.15)] group mx-auto lg:mx-0">
           {/* Background Image */}
           <img
-            src="/BuiltOnSmartTechnology.jpg"
+            src="/Home/BuiltOnSmartTechnology.jpg"
             alt="Farm Technology"
             className="w-full h-full object-cover"
           />

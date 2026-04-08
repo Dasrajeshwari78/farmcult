@@ -10,10 +10,10 @@ const EtWebinars = () => {
           <div className="w-full lg:w-[455px] lg:h-[426px] mt-10 lg:mt-0">
             <div className="pb-[60%] lg:pb-[70%] relative w-full h-full overflow-hidden rounded-[16px] group">
               <img
-                src="/Webinarsimage.jpg"
+                src="/EducationTraining/Webinarsimage.jpg"
                 alt="Webinars"
                 className="absolute inset-0 w-full h-full object-cover brightness-105 contrast-105 saturate-110 transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
-                onError={(e) => { e.target.src = '/contactFromimg.jpg'; }}
+                onError={(e) => { e.target.src = '/Shared/contactFromimg.jpg'; }}
               />
               <div className="absolute inset-0 bg-black/5 rounded-[16px]"></div>
             </div>

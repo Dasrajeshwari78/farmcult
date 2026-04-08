@@ -88,7 +88,7 @@ const WfcHeader = ({
           {/* IMAGE BELOW */}
           <div className="w-full">
             <img
-              src="/passiveIncome/piHeader.jpg"
+              src="/Shared/piHeader.jpg"
               alt="banner"
               className="w-full h-[300px] md:h-[400px] object-cover"
             />

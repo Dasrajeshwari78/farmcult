@@ -14,7 +14,7 @@ const Technology = () => {
         tag="TECHNOLOGY"
         title="Technology That Powers Every Farm"
         subtitle="Smart systems working quietly behind the scenes. Monitoring, optimising, and improving performance every day."
-        image="/new2.jpeg"
+        image="/technology/technology_header.jpeg"
         variant="dark"
       />
       <SmartIntegration />

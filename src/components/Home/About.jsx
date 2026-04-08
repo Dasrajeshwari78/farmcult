@@ -29,7 +29,7 @@ const About = () => {
         {/* Image Background */}
         <div className="absolute inset-0 w-full h-full z-0">
           <img
-            src="/contactFromimg.jpg"
+            src="/Shared/contactFromimg.jpg"
             alt="Farmcult Greenhouse Facility"
             className="about-img w-full h-full object-cover"
           />
@@ -40,7 +40,7 @@ const About = () => {
 
           <div className="feature-item flex flex-col items-start w-[100%] max-w-[329px] md:max-w-none md:w-[367px] md:h-[81px]">
             <div className="feature-icon flex items-center justify-start h-[24px] md:h-[25px] mb-[1px] md:mb-0">
-              <img src="/icons/icon 1.svg" alt="Technology-led" className="h-full w-auto object-contain" />
+              <img src="/Shared/icons/icon1.svg" alt="Technology-led" className="h-full w-auto object-contain" />
             </div>
             <h3 className="feature-title text-[18px] md:text-[18px] font-semibold md:font-bold font-inter text-text-primary h-[36px] leading-[36px] m-0">
               Technology-led
@@ -52,7 +52,7 @@ const About = () => {
 
           <div className="feature-item flex flex-col items-start w-[100%] max-w-[329px] md:max-w-none md:w-[367px] md:h-[81px]">
             <div className="feature-icon flex items-center justify-start h-[24px] md:h-[25px] mb-[1px] md:mb-0">
-              <img src="/icons/icon 2.svg" alt="Sustainable" className="h-full w-auto object-contain" />
+              <img src="/Shared/icons/icon2.svg" alt="Sustainable" className="h-full w-auto object-contain" />
             </div>
             <h3 className="feature-title text-[18px] md:text-[18px] font-semibold md:font-bold font-inter text-text-primary h-[36px] leading-[36px] m-0">
               Sustainable
@@ -64,7 +64,7 @@ const About = () => {
 
           <div className="feature-item flex flex-col items-start w-[100%] max-w-[329px] md:max-w-none md:w-[367px] md:h-[81px]">
             <div className="feature-icon flex items-center justify-start h-[24px] md:h-[25px] mb-[1px] md:mb-0">
-              <img src="/icons/icon 3.svg" alt="Scaleable" className="h-full w-auto object-contain" />
+              <img src="/Shared/icons/icon3.svg" alt="Scaleable" className="h-full w-auto object-contain" />
             </div>
             <h3 className="feature-title text-[18px] md:text-[18px] font-semibold md:font-bold font-inter text-text-primary h-[36px] leading-[36px] m-0">
               Scaleable

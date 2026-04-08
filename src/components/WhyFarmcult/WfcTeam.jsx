@@ -7,7 +7,7 @@ const WfcTeam = () => {
         <div className="wfc-team-inner grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-10 md:gap-12 lg:gap-[100px] items-stretch">
           <div className="wfc-team-image-col w-full h-[300px] sm:h-[400px] lg:h-[430px]">
             <img
-              src="/icons/farmCultLogoPic.png"
+              src="/WhyFarmcult/icons/farmCultLogoPic.png"
               alt="Farmcult Team"
               className="w-full h-full object-cover rounded-2xl md:rounded-[32px]"
             />
@@ -43,25 +43,25 @@ const WfcTeam = () => {
               {
                 name: 'Pritpal Singh',
                 role: 'Founder & CEO',
-                image: '/whyFarmCult/PritpalSingh.jpg',
+                image: '/WhyFarmcult/PritpalSingh.jpg',
                 linkedin: 'https://www.linkedin.com/in/pritpalsingh2610'
               },
               {
                 name: 'Sanampreet Singh',
                 role: 'Manager: Projects & Business Development',
-                image: '/whyFarmCult/teamSanampreet.jpg',
+                image: '/WhyFarmcult/teamSanampreet.jpg',
                 linkedin: 'https://www.linkedin.com/in/sanam403'
               },
               {
                 name: 'Harleen Alagh',
                 role: 'Business Development Manager',
-                image: '/whyFarmCult/Harleen.jpg',
+                image: '/WhyFarmcult/Harleen.jpg',
                 linkedin: 'https://www.linkedin.com/in/harleen-alagh-122271394'
               },
               {
                 name: 'Dr Akshiptika Chandel',
                 role: 'Head- Research and Training',
-                image: '/whyFarmCult/DrAkshiptika.jpg',
+                image: '/WhyFarmcult/DrAkshiptika.jpg',
                 linkedin: 'https://www.linkedin.com/in/dr-akshiptika-chandel-2540a221b'
               },
             ].map((member, i) => (
@@ -81,7 +81,7 @@ const WfcTeam = () => {
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="/icons/linkedin.png"
+                        src="/WhyFarmcult/icons/linkedin.png"
                         className="w-5 h-5 cursor-pointer"
                         alt="LinkedIn"
                       />
@@ -105,19 +105,19 @@ const WfcTeam = () => {
               {
                 name: 'Subhajit Mukherjee',
                 role: 'Procurement Manager',
-                image: '/whyFarmCult/SubhajitM.jpg',
+                image: '/WhyFarmcult/SubhajitM.jpg',
                 linkedin: 'https://www.linkedin.com/in/subhajit-mukherjee-917ab8290'
               },
               {
                 name: 'Aman Chandra',
                 role: 'Sr Agronomist',
-                image: '/whyFarmCult/Aman.jpg',
+                image: '/WhyFarmcult/Aman.jpg',
                 linkedin: 'https://www.linkedin.com/in/aman-chandra-%F0%9F%A5%AC%F0%9F%AB%91%F0%9F%8D%83-02083b221'
               },
               {
                 name: 'Aditya Rathi',
                 role: 'Jr Agronomist',
-                image: '/whyFarmCult/AdityaRathi.jpg',
+                image: '/WhyFarmcult/AdityaRathi.jpg',
                 linkedin: 'https://www.linkedin.com/in/aditya-rathi-2b6b80375'
               }
             ].map((member, i) => (
@@ -137,7 +137,7 @@ const WfcTeam = () => {
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="/icons/linkedin.png"
+                        src="/WhyFarmcult/icons/linkedin.png"
                         className="w-5 h-5 cursor-pointer"
                         alt="LinkedIn"
                       />

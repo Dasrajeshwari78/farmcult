@@ -25,24 +25,24 @@ const ParticipantsReviews = () => {
       reviewer: 'Ramyata Aseri',
       time: '2 months ago',
       content: 'I attended a 4-day hydroponics training program and found it extremely well-structured and informative. The sessions were engaging, easy to understand, and packed with practical insights...',
-      image: '/icons/people img 1.png',
-      stars: '/icons/5 star.png'
+      image: '/Home/icons/people1.png',
+      stars: '/Home/icons/5star.png'
     },
     {
       id: 2,
       reviewer: 'Sandeep dhaliwal',
       time: '4 months ago',
       content: 'The hydroponics farming training was an incredibly valuable experience. It provided a perfect balance of theoretical knowledge and practical, hands-on skills. I learned how to set up and maintain a hydroponics system, as well...',
-      image: '/icons/people img 2.png',
-      stars: '/icons/5 star.png'
+      image: '/Home/icons/people2.png',
+      stars: '/Home/icons/5star.png'
     },
     {
       id: 3,
       reviewer: 'Aarav Sharma',
       time: '5 months ago',
       content: 'My hydroponics training at Farmcult was an excellent experience. The sessions were clear, practical, and very informative, giving me hands-on exposure to modern...',
-      image: '/icons/people img 3.png',
-      stars: '/icons/5 star.png',
+      image: '/Home/icons/people3.png',
+      stars: '/Home/icons/5star.png',
       isHorizontal: true
     }
   ];
@@ -93,12 +93,12 @@ const ParticipantsReviews = () => {
       <div className="reviews-content-grid grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
 
         <div className="review-card-item lg:col-span-4 bg-white rounded-[24px] p-10 shadow-[0_4px_20px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col items-center justify-center text-center">
-          <img src="/icons/Google__G__Logo 1.png" alt="Google" className="w-12 h-12 mb-6" />
+          <img src="/Home/icons/GoogleLogo.png" alt="Google" className="w-12 h-12 mb-6" />
           <h3 className="text-[2.8rem] font-bold text-text-primary leading-tight mb-2">Google</h3>
           <p className="text-lg text-text-secondary opacity-60 mb-8">average rating</p>
           <div className="text-[6rem] font-bold text-[#4285F4] leading-none mb-6">4.7</div>
-          <img src="/icons/4.5star.png" alt="4.7 Stars" className="h-10 mb-8" />
-          <img src="/icons/Google__G__Logo 1.png" alt="Google" className="w-12" />
+          <img src="/Home/icons/4.5star.png" alt="4.7 Stars" className="h-10 mb-8" />
+          <img src="/Home/icons/GoogleLogo.png" alt="Google" className="w-12" />
         </div>
 
         <div className="lg:col-span-8 w-full overflow-hidden lg:overflow-visible">
@@ -111,7 +111,7 @@ const ParticipantsReviews = () => {
               <div key={review.id} className="review-card-item bg-white rounded-[24px] p-8 shadow-[0_4px_20px_rgba(0,0,0,0.05)] border border-gray-50 flex flex-col shrink-0 w-[85vw] sm:w-[50vw] snap-center lg:w-auto">
 
                 <div className="flex justify-center mb-6">
-                  <img src="/icons/Google__G__Logo 1.png" alt="Google" className="w-8 h-8" />
+                  <img src="/Home/icons/GoogleLogo.png" alt="Google" className="w-8 h-8" />
                 </div>
 
                 <div className="flex justify-center mb-6">
@@ -137,7 +137,7 @@ const ParticipantsReviews = () => {
                 <div className="flex flex-col lg:hidden w-full h-full align-center justify-between">
 
                   <div className="flex justify-center mb-6">
-                    <img src="/icons/Google__G__Logo 1.png" alt="Google" className="w-8 h-8" />
+                    <img src="/Home/icons/GoogleLogo.png" alt="Google" className="w-8 h-8" />
                   </div>
 
                   <div className="flex justify-center mb-6">

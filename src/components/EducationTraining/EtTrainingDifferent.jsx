@@ -22,10 +22,10 @@ const EtTrainingDifferent = () => {
         {/* Large Image with Overlaid Card */}
         <div className="relative w-full rounded-[16px] overflow-hidden bg-gray-100 min-h-[500px] lg:min-h-[640px] flex items-center justify-end et-different-image">
           <img
-            src="/Training.jpg"
+            src="/EducationTraining/Training.jpg"
             alt="Training Different"
             className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => { e.target.src = '/ourSolutionCard2.jpg'; }}
+            onError={(e) => { e.target.src = '/EducationTraining/ourSolutionCard2.jpg'; }}
           />
 
           {/* Overlaid Card */}
@@ -34,7 +34,7 @@ const EtTrainingDifferent = () => {
               {/* Feature 1 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/icons/practical-learning.svg" alt="Practical Learning" className="w-8 h-8 object-contain" />
+                  <img src="/EducationTraining/icons/practical-learning.svg" alt="Practical Learning" className="w-8 h-8 object-contain" />
                 </div>
                 <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Practical Learning</h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
@@ -45,7 +45,7 @@ const EtTrainingDifferent = () => {
               {/* Feature 2 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/icons/beginner-friendly.svg" alt="Beginner-Friendly" className="w-8 h-8 object-contain" />
+                  <img src="/EducationTraining/icons/beginner-friendly.svg" alt="Beginner-Friendly" className="w-8 h-8 object-contain" />
                 </div>
                 <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Beginner-Friendly</h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
@@ -56,7 +56,7 @@ const EtTrainingDifferent = () => {
               {/* Feature 3 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/icons/real-world-focused.svg" alt="Real-World Focused" className="w-8 h-8 object-contain" />
+                  <img src="/EducationTraining/icons/real-world-focused.svg" alt="Real-World Focused" className="w-8 h-8 object-contain" />
                 </div>
                 <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Real-World Focused</h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">

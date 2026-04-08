@@ -8,25 +8,25 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
   {
     side: 'left',
-    icon: '/icons/icon 7.png',
+    icon: '/technology/icons/icon7.png',
     title: 'Real-Time Tracking',
     description: 'Monitor temperature, humidity, and CO2 levels on the farm to maintain stable growing conditions.',
   },
   {
     side: 'left',
-    icon: '/icons/icon 9.png',
+    icon: '/technology/icons/icon9.png',
     title: 'Data-Driven Crop Management',
     description: 'Access live performance insights that support tighter control over production cycles and yield consistency.',
   },
   {
     side: 'right',
-    icon: '/icons/icon 8.png',
+    icon: '/technology/icons/icon8.png',
     title: 'Precision Nutrient Control',
     description: 'Track and regulate pH and EC levels to ensure balanced nutrient delivery and consistent plant health.',
   },
   {
     side: 'right',
-    icon: '/icons/icon 10.png',
+    icon: '/technology/icons/icon10.png',
     title: 'Remote Cloud Access',
     description: 'View farm performance anytime through cloud-based monitoring systems designed for transparency and oversight.',
   },

@@ -27,14 +27,14 @@ const PiIncentives = () => {
             <div className="w-full flex flex-col rounded-[24px] overflow-hidden lg:h-[440px] xl:h-[480px] min-h-[400px] shadow-[0_8px_30px_rgba(0,0,0,0.04)] bg-white border border-black/5">
               <div className="w-full h-[60%] lg:h-[62%] relative bg-gray-100">
                 <img
-                  src="/Agri_Infrastructure_Fund.jpg"
+                  src="/Shared/Agri_Infrastructure_Fund.jpg"
                   alt="Agri Infrastructure Fund"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
               <div className="w-full h-[40%] lg:h-[38%] relative bg-white">
                 <img
-                  src="/National_Horticulture_Board.jpg"
+                  src="/Shared/National_Horticulture_Board.jpg"
                   alt="National Horticulture Board"
                   className="absolute inset-0 w-full h-full object-cover bg-white"
                 />
