@@ -87,11 +87,11 @@ const CaseStudies = () => {
                 {/* Title */}
                 <h3 className="text-[18px] font-bold leading-[36px] text-[#343434]">
                   {caseStudy.title.split("\n").map((line, index) => (
-                      <span key={index}>
-                        {line}
-                        <br />
-                      </span>
-                    ))}
+                    <span key={index}>
+                      {line}
+                      <br />
+                    </span>
+                  ))}
                 </h3>
 
                 {/* Description */}
