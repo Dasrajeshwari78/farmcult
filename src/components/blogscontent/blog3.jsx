@@ -2,7 +2,7 @@ function Content3() {
   return (
     <div className="space-y-6">
       <p>
-        Most hydroponic farms do not fail because of technology. They fail
+        Most hydroponics farms do not fail because of technology. They fail
         because of decisions made before the first seed is planted.
       </p>
       <p>
@@ -17,7 +17,7 @@ function Content3() {
         financial pressure. When crops are planted without confirmed demand,
         farms are forced to chase buyers. When pricing is not defined early,
         margins shrink. When production decisions come before market strategy,
-        even strong yields cannot protect farm ROI. Hydroponic farming in India
+        even strong yields cannot protect farm ROI. Hydroponics farming in India
         and other emerging markets often suffers from this gap between
         production and planning. Systems work. Plants grow. But bad planning
         collapses economics. Most failures happen before the first harvest
@@ -35,9 +35,9 @@ function Content3() {
         Systems are built for predictable outcomes.
       </p>
       <p>
-        If you want to understand how successful hydroponic farms are structured
-        and how to improve your hydroponic farm ROI, speak to FarmCult about
-        building a strong hydroponic business model.
+        If you want to understand how successful hydroponics farms are structured
+        and how to improve your hydroponics farm ROI, speak to FarmCult about
+        building a strong hydroponics business model.
       </p>
     </div>
   );

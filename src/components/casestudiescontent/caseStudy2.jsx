@@ -35,7 +35,7 @@ function Content2() {
         curriculum dives deep into:
         <ul className="list-disc pl-6">
           <li>
-            Real world hydroponic systems and their commercial applications
+            Real world hydroponics systems and their commercial applications
           </li>
           <li>Crop nutrition, pest management, and yield optimization</li>
           <li>Financial modeling and farm economics</li>
@@ -76,11 +76,11 @@ function Content2() {
       <p>
         <u>Step 3: Execution with Precision</u>
         <br />
-        From groundwork to the final installation of hydroponic systems, every
+        From groundwork to the final installation of hydroponics systems, every
         phase was executed with meticulous attention to detail:
         <ul className="list-disc pl-6">
           <li>Robust polyhouse infrastructure built to last</li>
-          <li>Hydroponic grow systems configured for scalability</li>
+          <li>Hydroponics grow systems configured for scalability</li>
           <li>Automated fertigation and climate management technology</li>
           <li>Water treatment and recycling mechanisms for sustainability</li>
         </ul>

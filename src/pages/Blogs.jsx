@@ -14,7 +14,7 @@ const Blogs = () => {
       <BlogsHeader
         tag="BLOGS"
         title="Ideas Driving Modern Farming"
-        subtitle="Industry updates, hydroponic knowledge, and practical insights shaping modern agriculture in India."
+        subtitle="Industry updates, hydroponics knowledge, and practical insights shaping modern agriculture in India."
       />
 
       {firstBlog && (

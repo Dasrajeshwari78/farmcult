@@ -9,7 +9,7 @@ function Content1() {
         over time.
       </p>
       <p>
-        Hydroponic farming works best when crops align with real market demand.
+        Hydroponics farming works best when crops align with real market demand.
         Stable demand reduces sales risk and supports consistent pricing. When
         demand is predictable, your hydroponics ROI becomes more reliable and
         easier to forecast. This is especially important for growers focused on
@@ -36,7 +36,7 @@ function Content1() {
         while others are more speculative. Matching crop choice to your
         operational capability protects your investment and supports steady
         growth. Smart farming starts with smarter crop choices. The right
-        hydroponic crop selection builds stability first, then scale.
+        hydroponics crop selection builds stability first, then scale.
       </p>
     </div>
   );

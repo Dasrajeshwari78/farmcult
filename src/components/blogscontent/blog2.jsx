@@ -13,7 +13,7 @@ function Content2() {
         seasonal conditions directly affect output and reliability. Crop cycles
         are slower, which limits annual yield from the same land area.
         <br />
-        Hydroponic farming systems operate in a controlled environment. This
+        Hydroponics farming systems operate in a controlled environment. This
         allows for year round production, faster crop cycles, and stable,
         predictable output. When the growing cycle shortens, the number of
         harvests per year increases. From the same land area, hydroponics can
@@ -33,7 +33,7 @@ function Content2() {
         affects yield, predictability, and long term returns.
       </p>
       <p>
-        Speak to FarmCult for data backed hydroponic setups and ROI driven farm
+        Speak to FarmCult for data backed hydroponics setups and ROI driven farm
         planning.
       </p>
     </div>

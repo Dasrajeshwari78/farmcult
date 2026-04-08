@@ -38,7 +38,7 @@ const EtTrainingDifferent = () => {
                 </div>
                 <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Practical Learning</h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
-                  Hands-on demonstrations inside working hydroponic farms.
+                  Hands-on demonstrations inside working hydroponics farms.
                 </p>
               </div>
 

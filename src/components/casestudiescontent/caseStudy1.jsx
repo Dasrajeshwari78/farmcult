@@ -17,7 +17,7 @@ function Content1() {
         <u>Key Client Concerns:</u>
       </p>
       <ul className="list-disc pl-6">
-        <li>Limited knowledge of hydroponic farming systems</li>
+        <li>Limited knowledge of hydroponics farming systems</li>
         <li>Uncertainty about the commercial viability of the project</li>
         <li>Need for reliable market connections for produce</li>
         <li>Requirement for ongoing technical support post-installation</li>
@@ -58,7 +58,7 @@ function Content1() {
         <ul className="list-disc pl-6">
           <li>Installation of climate-controlled polyhouse structures</li>
           <li>
-            Implementation of advanced hydroponic systems designed for
+            Implementation of advanced hydroponics systems designed for
             commercial-scale production
           </li>
           <li>
@@ -154,7 +154,7 @@ function Content1() {
       </p>
 
       <h2 className="text-lg font-bold">
-        Why Choose Farmcult for Your Hydroponic Project?
+        Why Choose Farmcult for Your Hydroponics Project?
       </h2>
       <p>
         This project exemplifies our philosophy: we don't just build farms, we
@@ -176,7 +176,7 @@ function Content1() {
       </h2>
       <p>
         Whether you have underutilized farmland or are planning a new commercial
-        hydroponic venture, we can help you build a sustainable, profitable
+        hydroponics venture, we can help you build a sustainable, profitable
         operation.
       </p>
     </div>

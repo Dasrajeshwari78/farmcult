@@ -9,7 +9,7 @@ const PiHowItWorks = () => {
             How It Works
           </h2>
           <p className="font-inter text-[16px] md:text-[15px] font-normal leading-[26px] md:leading-[29px] text-text-secondary">
-            We follow a clear, step-by-step process to set up your hydroponic farm. Farmcult manages each stage with clear timelines and support.
+            We follow a clear, step-by-step process to set up your hydroponics farm. Farmcult manages each stage with clear timelines and support.
           </p>
         </div>
 

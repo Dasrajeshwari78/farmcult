@@ -14,7 +14,7 @@ const EtHero = () => {
             Trainings & Education
           </h1>
           <p className="pi-hero-desc text-white/90 font-['Inter'] font-normal text-[15px] md:text-[18px] leading-[24px] md:leading-[28px] tracking-normal m-0 w-full">
-            From keen students to aspiring growers, Farmcult offers hands-on exposure to modern hydroponic farming.
+            From keen students to aspiring growers, Farmcult offers hands-on exposure to modern hydroponics farming.
           </p>
         </div>
       </section>

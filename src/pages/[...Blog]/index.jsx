@@ -98,7 +98,7 @@ const Blog = () => {
               </h2>
 
               <p className="text-sm leading-7">
-                Industry updates, hydroponic knowledge, and practical insights
+                Industry updates, hydroponics knowledge, and practical insights
                 shaping modern agriculture in India.
               </p>
             </div>
