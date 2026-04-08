@@ -5,18 +5,19 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import WhyFarmcult from './pages/WhyFarmcult';
-import Technology from './pages/Technology';
-import PassiveIncome from './pages/PassiveIncome';
-import TurnkeySolution from './pages/TurnkeySolution';
-import EducationTraining from './pages/EducationTraining';
-import './index.css';
-import Blogs from './pages/Blogs';
-import CaseStudies from './pages/CaseStudies';
-import Blog from './pages/[...Blog]';
-import CaseStudy from './pages/[...CaseStudy]';
-import NotFound from './pages/NotFound';
+import { lazy, Suspense } from 'react';
+
+const Home = lazy(() => import('./pages/Home'));
+const WhyFarmcult = lazy(() => import('./pages/WhyFarmcult'));
+const Technology = lazy(() => import('./pages/Technology'));
+const PassiveIncome = lazy(() => import('./pages/PassiveIncome'));
+const TurnkeySolution = lazy(() => import('./pages/TurnkeySolution'));
+const EducationTraining = lazy(() => import('./pages/EducationTraining'));
+const Blogs = lazy(() => import('./pages/Blogs'));
+const CaseStudies = lazy(() => import('./pages/CaseStudies'));
+const Blog = lazy(() => import('./pages/[...Blog]'));
+const CaseStudy = lazy(() => import('./pages/[...CaseStudy]'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 import TopBanner from './components/TopBanner';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -55,20 +56,22 @@ const AnimatedRoutes = () => {
         </div>
       )}
       <AnimatePresence mode="wait" initial={false}>
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/passive-income" element={<PassiveIncome />} />
-        <Route path="/turnkey-solution" element={<TurnkeySolution />} />
-        <Route path="/education-and-training" element={<EducationTraining />} />
-        <Route path="/why-farmcult" element={<WhyFarmcult />} />
-        <Route path="/technology" element={<Technology />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/case-studies" element={<CaseStudies />} />
-        <Route path="/blog/:id" element={<Blog />} />
-        <Route path="/case-study/:id" element={<CaseStudy />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </AnimatePresence>
+        <Suspense fallback={<div className="min-h-screen w-full flex items-center justify-center"><div className="w-12 h-12 border-4 border-accent border-t-transparent rounded-full animate-spin"></div></div>}>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/passive-income" element={<PassiveIncome />} />
+            <Route path="/turnkey-solution" element={<TurnkeySolution />} />
+            <Route path="/education-and-training" element={<EducationTraining />} />
+            <Route path="/why-farmcult" element={<WhyFarmcult />} />
+            <Route path="/technology" element={<Technology />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/blog/:id" element={<Blog />} />
+            <Route path="/case-study/:id" element={<CaseStudy />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
+      </AnimatePresence>
     </>
   );
 };

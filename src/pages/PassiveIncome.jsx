@@ -10,7 +10,7 @@ import PiMainContent from '../components/PassiveIncome/PiMainContent';
 import PiStatsGrid from '../components/PassiveIncome/PiStatsGrid';
 import PiHowItWorks from '../components/PassiveIncome/PiHowItWorks';
 import PiIncentives from '../components/PassiveIncome/PiIncentives';
-import PiExploreMore from '../components/PassiveIncome/PiExploreMore';
+import ExploreMore from '../components/Shared/ExploreMore';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -82,7 +82,24 @@ const PassiveIncome = () => {
       <PiMainContent />
       <PiHowItWorks />
       <PiIncentives />
-      <PiExploreMore />
+      <ExploreMore 
+        title="Explore More\nSolutions"
+        description="From hands-free investing to hands-on farming, we offer flexible ways to work with Farmcult based on your goals."
+        cards={[
+          {
+            title: "Turnkey Solution",
+            desc: "Farmcult will build a fully operational hydroponics farm on your land.",
+            link: "/turnkey-solution",
+            image: "/Shared/piTurnkeyC1.jpg"
+          },
+          {
+            title: "Education & Training",
+            desc: "Learn hydroponics farming through practical training, workshops, and guidance.",
+            link: "/education-and-training",
+            image: "/Shared/piTurnkeyC2.jpg"
+          }
+        ]}
+      />
       <ContactSection />
       <Footer />
     </motion.div>
