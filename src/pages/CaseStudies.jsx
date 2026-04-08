@@ -3,8 +3,8 @@ import CaseStudiesHeader from "../components/CaseStudies/CaseStudiesHeader";
 import ContactSection from "../components/Shared/ContactSection";
 import Footer from "../components/Shared/Footer";
 import { Link, Navigate } from "react-router-dom";
-// import casestudies from "../assets/docs/blogs.js";
-import caseStudies from "../assets/docs/case_studies.js";
+// import casestudies from "../data/blogs.js";
+import caseStudies from "../data/case_studies.js";
 
 const firstCaseStudy = caseStudies.find((caseStudy) => caseStudy.id === 1);
 const otherCaseStudies = caseStudies.filter((caseStudy) => caseStudy.id !== 1);

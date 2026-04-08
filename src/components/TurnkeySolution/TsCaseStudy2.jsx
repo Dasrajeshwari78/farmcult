@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
-import caseStudies from "../../assets/docs/case_studies.js";
+import caseStudies from "../../data/case_studies.js";
 
 gsap.registerPlugin(ScrollTrigger);
 

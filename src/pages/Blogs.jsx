@@ -3,7 +3,7 @@ import BlogsHeader from "../components/Blogs/BlogsHeader";
 import ContactSection from "../components/Shared/ContactSection";
 import Footer from "../components/Shared/Footer";
 import { Link } from "react-router-dom";
-import blogs from "../assets/docs/blogs.js";
+import blogs from "../data/blogs.js";
 
 const firstBlog = blogs.find((blog) => blog.id === 1);
 const otherBlogs = blogs.filter((blog) => blog.id !== 1);
