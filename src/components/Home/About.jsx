@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Animated Underline Link */}
         <div className="about-header-link mt-2 md:mt-0">
-          <a href="#about-us" className="btn-text-link group font-medium text-[16px] text-text-primary relative inline-block pb-[2px] after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-[1px] after:bottom-0 after:left-0 after:bg-text-primary after:origin-bottom-right after:transition-transform after:duration-[250ms] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">
+          <a href="/why-farmcult" className="btn-text-link group font-medium text-[16px] text-text-primary relative inline-block pb-[2px] after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-[1px] after:bottom-0 after:left-0 after:bg-text-primary after:origin-bottom-right after:transition-transform after:duration-[250ms] after:ease-out hover:after:scale-x-100 hover:after:origin-bottom-left">
             Learn more about Farmcult &rarr;
           </a>
         </div>
