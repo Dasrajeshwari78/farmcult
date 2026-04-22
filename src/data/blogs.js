@@ -23,16 +23,17 @@ const blogs = [
     description:
       "The real reason most commercial hydroponics projects struggle",
     date: "Jan 2025",
-    image: "/blogs/WhyHydroponicsFarmsFail.jpg",
+    image: "/blogs/Hero Image.jpg",
     selectedIds: ["soil-vs-hydroponics", "hydroponics-break-even"],
   },
   {
     id: "hydroponics-break-even",
     title: "Hydroponics Break Even Explained",
     description:
-      "How crop choice, pricing and planning decide your ROI timeline.",
+    "How crop choice, pricing and planning decide your ROI timeline.",
     date: "Jan 2025",
-    image: "/blogs/blog4.jpg",
+    // image: "/blogs/blog4.jpg",
+    image: "/case-studies/CShomepage.jpg",
     selectedIds: ["soil-vs-hydroponics", "why-hydroponics-farms-fail"],
   },
 ];

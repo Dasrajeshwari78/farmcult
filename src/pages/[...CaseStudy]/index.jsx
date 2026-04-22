@@ -48,7 +48,7 @@ const CaseStudy = () => {
       <div
         className="w-full h-[500px] bg-cover bg-center"
         style={{
-          backgroundImage: `url(${caseStudy.image})`,
+          backgroundImage: `url('${caseStudy.image}')`,
         }}
       />
       <section className="flex justify-center px-6 md:px-[5%] lg:px-16 py-10 lg:py-16">
