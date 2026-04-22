@@ -45,7 +45,7 @@ const Blog = () => {
       <div
         className="w-full h-[500px] bg-cover bg-center"
         style={{
-          backgroundImage: `url(${blog.image})`,
+          backgroundImage: `url('${blog.image}')`,
         }}
       />
       <section className="flex justify-center px-6 md:px-[5%] lg:px-16 py-10 lg:py-16">
