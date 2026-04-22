@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const EtTrainingDifferent = () => {
   return (
@@ -11,11 +12,16 @@ const EtTrainingDifferent = () => {
           </h2>
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-4 lg:gap-8">
             <p className="font-inter text-[16px] md:text-[15px] font-normal leading-[26px] md:leading-[29px] text-text-secondary md:max-w-3xl">
-              Our programs combine classroom learning with real farm exposure. We focus on practical skills, clear concepts, and hands-on understanding so participants leave confident, not confused.
+              Our programs combine classroom learning with real farm exposure.
+              We focus on practical skills, clear concepts, and hands-on
+              understanding so participants leave confident, not confused.
             </p>
-            <a href="/why-farmcult" className="text-text-primary border-b border-text-primary pb-0.5 font-medium hover:text-accent hover:border-accent transition-all flex items-center whitespace-nowrap lg:mb-1 text-[0.95rem]">
+            <Link
+              to="/why-farmcult"
+              className="text-text-primary border-b border-text-primary pb-0.5 font-medium hover:text-accent hover:border-accent transition-all flex items-center whitespace-nowrap lg:mb-1 text-[0.95rem]"
+            >
               Learn more about Farmcult <span className="ml-[6px]">→</span>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -25,7 +31,9 @@ const EtTrainingDifferent = () => {
             src="/EducationTraining/Training.jpg"
             alt="Training Different"
             className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => { e.target.src = '/EducationTraining/ourSolutionCard2.jpg'; }}
+            onError={(e) => {
+              e.target.src = "/EducationTraining/ourSolutionCard2.jpg";
+            }}
           />
 
           {/* Overlaid Card */}
@@ -34,9 +42,15 @@ const EtTrainingDifferent = () => {
               {/* Feature 1 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/EducationTraining/icons/practical-learning.svg" alt="Practical Learning" className="w-8 h-8 object-contain" />
+                  <img
+                    src="/EducationTraining/icons/practical-learning.svg"
+                    alt="Practical Learning"
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
-                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Practical Learning</h4>
+                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">
+                  Practical Learning
+                </h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
                   Hands-on demonstrations inside working hydroponics farms.
                 </p>
@@ -45,9 +59,15 @@ const EtTrainingDifferent = () => {
               {/* Feature 2 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/EducationTraining/icons/beginner-friendly.svg" alt="Beginner-Friendly" className="w-8 h-8 object-contain" />
+                  <img
+                    src="/EducationTraining/icons/beginner-friendly.svg"
+                    alt="Beginner-Friendly"
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
-                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Beginner-Friendly</h4>
+                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">
+                  Beginner-Friendly
+                </h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
                   Complex concepts explained clearly
                 </p>
@@ -56,9 +76,15 @@ const EtTrainingDifferent = () => {
               {/* Feature 3 */}
               <div>
                 <div className="text-accent mb-3 flex">
-                  <img src="/EducationTraining/icons/real-world-focused.svg" alt="Real-World Focused" className="w-8 h-8 object-contain" />
+                  <img
+                    src="/EducationTraining/icons/real-world-focused.svg"
+                    alt="Real-World Focused"
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
-                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">Real-World Focused</h4>
+                <h4 className="font-bold text-text-primary text-[1.1rem] lg:text-[1.15rem] mb-2 leading-tight">
+                  Real-World Focused
+                </h4>
                 <p className="text-[#555] text-[0.95rem] leading-[1.6]">
                   Learn with real case examples and live systems
                 </p>
